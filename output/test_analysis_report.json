@@ -1,0 +1,321 @@
+{
+  "session_id": "TEST-2024-MOCK-001",
+  "student_id": "STU001",
+  "overall_score": 22.7,
+  "total_correct": 13,
+  "total_incorrect": 5,
+  "total_unanswered": 2,
+  "accuracy_percentage": 65.0,
+  "mistake_cards": [
+    {
+      "id": "mc-TEST-2024-MOCK-001-PYQ-2024-002",
+      "session_id": "TEST-2024-MOCK-001",
+      "response_id": "resp-TEST-2024-MOCK-001-PYQ-2024-002",
+      "subject": "Polity",
+      "topic": "Fundamental Rights",
+      "subtopic": "Right to Privacy",
+      "mistake_type": "confusion_similar",
+      "severity": "high",
+      "student_answer": "Article 15",
+      "correct_answer": "Article 21",
+      "explanation": "In K.S. Puttaswamy case (2017), SC recognized Right to Privacy under Article 21.",
+      "root_cause": "Confused between similar options",
+      "remediation": "Create comparison tables for Fundamental Rights concepts",
+      "confidence_score": 0.8,
+      "time_spent": 48
+    },
+    {
+      "id": "mc-TEST-2024-MOCK-001-PYQ-2023-001",
+      "session_id": "TEST-2024-MOCK-001",
+      "response_id": "resp-TEST-2024-MOCK-001-PYQ-2023-001",
+      "subject": "Polity",
+      "topic": "Prisons",
+      "subtopic": "State Subject",
+      "mistake_type": "guesswork",
+      "severity": "low",
+      "student_answer": "I correct, II incorrect",
+      "correct_answer": "Both correct",
+      "explanation": "Both are correct. Prisons is Entry 4, State List.",
+      "root_cause": "Guessed with low confidence",
+      "remediation": "Strengthen Prisons fundamentals",
+      "confidence_score": 0.5,
+      "time_spent": 62
+    },
+    {
+      "id": "mc-TEST-2024-MOCK-001-PYQ-2023-005",
+      "session_id": "TEST-2024-MOCK-001",
+      "response_id": "resp-TEST-2024-MOCK-001-PYQ-2023-005",
+      "subject": "Environment",
+      "topic": "Biodiversity",
+      "subtopic": "Deciduous Trees",
+      "mistake_type": "partial_knowledge",
+      "severity": "medium",
+      "student_answer": "Unanswered",
+      "correct_answer": "All three",
+      "explanation": "All three are deciduous trees that shed leaves seasonally.",
+      "root_cause": "Insufficient knowledge",
+      "remediation": "Study Biodiversity in Environment more deeply",
+      "confidence_score": 0.8,
+      "time_spent": 88
+    },
+    {
+      "id": "mc-TEST-2024-MOCK-001-PYQ-2021-001",
+      "session_id": "TEST-2024-MOCK-001",
+      "response_id": "resp-TEST-2024-MOCK-001-PYQ-2021-001",
+      "subject": "Polity",
+      "topic": "Parliament",
+      "subtopic": "Money Bill",
+      "mistake_type": "confusion_similar",
+      "severity": "high",
+      "student_answer": "Rajya Sabha only",
+      "correct_answer": "Lok Sabha only",
+      "explanation": "Money Bills can only be introduced in Lok Sabha on President's recommendation.",
+      "root_cause": "Confused between similar options",
+      "remediation": "Create comparison tables for Parliament concepts",
+      "confidence_score": 0.8,
+      "time_spent": 58
+    },
+    {
+      "id": "mc-TEST-2024-MOCK-001-PYQ-2021-002",
+      "session_id": "TEST-2024-MOCK-001",
+      "response_id": "resp-TEST-2024-MOCK-001-PYQ-2021-002",
+      "subject": "Economy",
+      "topic": "Banking",
+      "subtopic": "RBI Tools",
+      "mistake_type": "guesswork",
+      "severity": "low",
+      "student_answer": "Bank Rate",
+      "correct_answer": "Margin Requirements",
+      "explanation": "Margin requirements are qualitative/selective credit control, not quantitative.",
+      "root_cause": "Guessed with low confidence",
+      "remediation": "Strengthen Banking fundamentals",
+      "confidence_score": 0.5,
+      "time_spent": 95
+    },
+    {
+      "id": "mc-TEST-2024-MOCK-001-PYQ-2021-004",
+      "session_id": "TEST-2024-MOCK-001",
+      "response_id": "resp-TEST-2024-MOCK-001-PYQ-2021-004",
+      "subject": "Environment",
+      "topic": "Biodiversity",
+      "subtopic": "Hotspots",
+      "mistake_type": "partial_knowledge",
+      "severity": "medium",
+      "student_answer": "Unanswered",
+      "correct_answer": "Sundarbans",
+      "explanation": "India has 4 hotspots: Western Ghats, Himalayas, Indo-Burma, Sundaland. Sundarbans is not one.",
+      "root_cause": "Insufficient knowledge",
+      "remediation": "Study Biodiversity in Environment more deeply",
+      "confidence_score": 0.8,
+      "time_spent": 74
+    },
+    {
+      "id": "mc-TEST-2024-MOCK-001-PYQ-2020-001",
+      "session_id": "TEST-2024-MOCK-001",
+      "response_id": "resp-TEST-2024-MOCK-001-PYQ-2020-001",
+      "subject": "Polity",
+      "topic": "Fundamental Rights",
+      "subtopic": "Equality",
+      "mistake_type": "guesswork",
+      "severity": "low",
+      "student_answer": "Citizens only",
+      "correct_answer": "Persons (including non-citizens)",
+      "explanation": "Article 14 uses 'persons' not 'citizens', so it applies to all within Indian territory.",
+      "root_cause": "Guessed with low confidence",
+      "remediation": "Strengthen Fundamental Rights fundamentals",
+      "confidence_score": 0.5,
+      "time_spent": 70
+    }
+  ],
+  "patterns": [
+    {
+      "pattern_id": "type_confusion_similar",
+      "pattern_name": "Recurring confusion similar errors",
+      "description": "2 instances of confusion similar mistakes",
+      "affected_topics": [
+        "Parliament",
+        "Fundamental Rights"
+      ],
+      "occurrence_count": 2,
+      "severity": "high",
+      "recommendation": "Address confusion similar through targeted practice"
+    },
+    {
+      "pattern_id": "subject_polity",
+      "pattern_name": "Weakness in Polity",
+      "description": "4 mistakes across Polity topics",
+      "affected_topics": [
+        "Parliament",
+        "Prisons",
+        "Fundamental Rights"
+      ],
+      "occurrence_count": 4,
+      "severity": "high",
+      "recommendation": "Dedicated revision needed for Polity"
+    },
+    {
+      "pattern_id": "type_guesswork",
+      "pattern_name": "Recurring guesswork errors",
+      "description": "3 instances of guesswork mistakes",
+      "affected_topics": [
+        "Banking",
+        "Prisons",
+        "Fundamental Rights"
+      ],
+      "occurrence_count": 3,
+      "severity": "medium",
+      "recommendation": "Address guesswork through targeted practice"
+    },
+    {
+      "pattern_id": "type_partial_knowledge",
+      "pattern_name": "Recurring partial knowledge errors",
+      "description": "2 instances of partial knowledge mistakes",
+      "affected_topics": [
+        "Biodiversity"
+      ],
+      "occurrence_count": 2,
+      "severity": "medium",
+      "recommendation": "Address partial knowledge through targeted practice"
+    },
+    {
+      "pattern_id": "subject_environment",
+      "pattern_name": "Weakness in Environment",
+      "description": "2 mistakes across Environment topics",
+      "affected_topics": [
+        "Biodiversity"
+      ],
+      "occurrence_count": 2,
+      "severity": "medium",
+      "recommendation": "Dedicated revision needed for Environment"
+    }
+  ],
+  "subject_performance": [
+    {
+      "subject": "Polity",
+      "total": 5,
+      "correct": 1,
+      "incorrect": 4,
+      "accuracy": 20.0,
+      "status": "weak",
+      "weak_topics": [
+        "Fundamental Rights",
+        "Prisons",
+        "Parliament"
+      ]
+    },
+    {
+      "subject": "Economy",
+      "total": 5,
+      "correct": 4,
+      "incorrect": 1,
+      "accuracy": 80.0,
+      "status": "strong",
+      "weak_topics": [
+        "Banking"
+      ]
+    },
+    {
+      "subject": "Geography",
+      "total": 4,
+      "correct": 4,
+      "incorrect": 0,
+      "accuracy": 100.0,
+      "status": "strong",
+      "weak_topics": []
+    },
+    {
+      "subject": "Environment",
+      "total": 4,
+      "correct": 2,
+      "incorrect": 2,
+      "accuracy": 50.0,
+      "status": "average",
+      "weak_topics": [
+        "Biodiversity",
+        "Biodiversity"
+      ]
+    },
+    {
+      "subject": "Science",
+      "total": 2,
+      "correct": 2,
+      "incorrect": 0,
+      "accuracy": 100.0,
+      "status": "strong",
+      "weak_topics": []
+    }
+  ],
+  "recommendations": [
+    {
+      "category": "Subject Focus",
+      "priority": "HIGH",
+      "message": "Focus on Polity - accuracy is 20.0%. Recommended: Revise NCERT basics and solve 50+ PYQs.",
+      "action_items": [
+        "Complete NCERT Polity fundamentals",
+        "Solve 30+ PYQs on Fundamental Rights, Prisons, Parliament",
+        "Take 2 sectional tests on Polity"
+      ]
+    },
+    {
+      "category": "Subject Focus",
+      "priority": "MEDIUM",
+      "message": "Focus on Environment - accuracy is 50.0%. Recommended: Revise NCERT basics and solve 50+ PYQs.",
+      "action_items": [
+        "Complete NCERT Environment fundamentals",
+        "Solve 30+ PYQs on Biodiversity, Biodiversity",
+        "Take 2 sectional tests on Environment"
+      ]
+    },
+    {
+      "category": "Mistake Pattern",
+      "priority": "HIGH",
+      "message": "Your most common mistake: 'Recurring confusion similar errors'. Address confusion similar through targeted practice.",
+      "action_items": [
+        "Review 2 questions with this pattern",
+        "Practice elimination techniques",
+        "Focus on Parliament, Fundamental Rights"
+      ]
+    },
+    {
+      "category": "Time Management",
+      "priority": "MEDIUM",
+      "message": "Average time on wrong answers: 71s. Practice timed tests.",
+      "action_items": [
+        "Take 5 sectional tests with 20-min limit",
+        "Practice first-pass elimination",
+        "Skip difficult questions on first pass"
+      ]
+    },
+    {
+      "category": "Strength Maintenance",
+      "priority": "LOW",
+      "message": "Maintain Economy (80.0% accuracy). Focus on advanced questions.",
+      "action_items": [
+        "Solve advanced PYQs on Economy",
+        "Link static topics with current affairs",
+        "Take 1 sectional test per week"
+      ]
+    },
+    {
+      "category": "Strength Maintenance",
+      "priority": "LOW",
+      "message": "Maintain Geography (100.0% accuracy). Focus on advanced questions.",
+      "action_items": [
+        "Solve advanced PYQs on Geography",
+        "Link static topics with current affairs",
+        "Take 1 sectional test per week"
+      ]
+    },
+    {
+      "category": "Strength Maintenance",
+      "priority": "LOW",
+      "message": "Maintain Science (100.0% accuracy). Focus on advanced questions.",
+      "action_items": [
+        "Solve advanced PYQs on Science",
+        "Link static topics with current affairs",
+        "Take 1 sectional test per week"
+      ]
+    }
+  ],
+  "analysis_timestamp": "2026-10-07T23:08:18.009139"
+}

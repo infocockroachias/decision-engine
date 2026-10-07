@@ -1,0 +1,734 @@
+{
+  "student_id": "STU001",
+  "student_name": "Aishwarya Rao",
+  "test_id": "T004",
+  "test_date": "2026-10-07",
+  "total_questions": 50,
+  "total_correct": 28,
+  "total_wrong": 22,
+  "total_skipped": 0,
+  "total_marks_obtained": 56,
+  "total_marks_lost": 58.74000000000002,
+  "overall_score": 56,
+  "subject_wise_analysis": {
+    "Polity": {
+      "total_questions": 8,
+      "correct": 3,
+      "wrong": 5,
+      "accuracy": 37.5,
+      "marks_lost": 0,
+      "mistake_count": 5,
+      "status": "weak"
+    },
+    "History": {
+      "total_questions": 7,
+      "correct": 6,
+      "wrong": 1,
+      "accuracy": 85.7,
+      "marks_lost": 0,
+      "mistake_count": 1,
+      "status": "strong"
+    },
+    "Geography": {
+      "total_questions": 8,
+      "correct": 4,
+      "wrong": 4,
+      "accuracy": 50.0,
+      "marks_lost": 0,
+      "mistake_count": 4,
+      "status": "average"
+    },
+    "Economy": {
+      "total_questions": 7,
+      "correct": 2,
+      "wrong": 5,
+      "accuracy": 28.6,
+      "marks_lost": 0,
+      "mistake_count": 5,
+      "status": "weak"
+    },
+    "Science": {
+      "total_questions": 6,
+      "correct": 4,
+      "wrong": 2,
+      "accuracy": 66.7,
+      "marks_lost": 0,
+      "mistake_count": 2,
+      "status": "average"
+    },
+    "Environment": {
+      "total_questions": 6,
+      "correct": 3,
+      "wrong": 3,
+      "accuracy": 50.0,
+      "marks_lost": 0,
+      "mistake_count": 3,
+      "status": "average"
+    },
+    "Current Affairs": {
+      "total_questions": 8,
+      "correct": 6,
+      "wrong": 2,
+      "accuracy": 75.0,
+      "marks_lost": 0,
+      "mistake_count": 2,
+      "status": "strong"
+    }
+  },
+  "mistake_cards": [
+    {
+      "q_id": 1,
+      "subject": "Polity",
+      "topic": "Fundamental Rights",
+      "subtopic": "Right to Equality (Article 14-18)",
+      "question_type": "statement_based",
+      "difficulty": "medium",
+      "correct_answer": "1 and 2 only",
+      "student_answer": "1, 2 and 3",
+      "explanation": "Statement 1 is correct: Article 14 uses 'persons' not 'citizens', so it applies to all. Statement 2 is correct: Article 15(3) allows special provisions for women and children. Statement 3 is incorrect: Article 16 does not permit reservation based on religion (this was struck down in Indra Sawhney case).",
+      "student_mistake_reason": "Confused statement 3 about Article 16",
+      "mistake_type": "partial_knowledge",
+      "confidence": 2,
+      "time_spent": 45,
+      "severity": "LOW",
+      "syllabus_pointer": "Fundamental Rights - Right to Equality",
+      "pyq_pattern": "Similar to 2020 Q1, 2019 Q3"
+    },
+    {
+      "q_id": 3,
+      "subject": "Polity",
+      "topic": "Centre-State Relations",
+      "subtopic": "President's Rule (Article 356)",
+      "question_type": "statement_based",
+      "difficulty": "medium",
+      "correct_answer": "1 and 3 only",
+      "student_answer": "1 only",
+      "explanation": "Statement 1 is correct: Both Houses must approve within 2 months. Statement 2 is incorrect: Judicial review is NOT barred - the Supreme Court in S.R. Bommai case (1994) established that President's Rule can be reviewed. Statement 3 is correct: Maximum duration is 3 years.",
+      "student_mistake_reason": "Didn't know about Bommai case",
+      "mistake_type": "conceptual_gap",
+      "confidence": 2,
+      "time_spent": 60,
+      "severity": "HIGH",
+      "syllabus_pointer": "Centre-State Relations - Emergency Provisions",
+      "pyq_pattern": "Similar to 2016 Q8, 2022 Q15"
+    },
+    {
+      "q_id": 5,
+      "subject": "Polity",
+      "topic": "Fundamental Rights",
+      "subtopic": "Right to Freedom of Religion (Article 25-28)",
+      "question_type": "analytical",
+      "difficulty": "hard",
+      "correct_answer": "Public order, morality, health and other provisions of Part III",
+      "student_answer": "Public order, morality and health only",
+      "explanation": "Article 25(1) states that all persons are equally entitled to freedom of conscience, subject to public order, morality and health and to the other provisions of Part III.",
+      "student_mistake_reason": "Confused Article 25 with Article 19 restrictions",
+      "mistake_type": "confusion_similar",
+      "confidence": 2,
+      "time_spent": 50,
+      "severity": "HIGH",
+      "syllabus_pointer": "Fundamental Rights - Right to Freedom of Religion",
+      "pyq_pattern": "Similar to 2019 Q25, 2021 Q30"
+    },
+    {
+      "q_id": 6,
+      "subject": "Polity",
+      "topic": "Judiciary",
+      "subtopic": "Supreme Court - Original and Appellate Jurisdiction",
+      "question_type": "matching",
+      "difficulty": "medium",
+      "correct_answer": "A-1, B-2, C-3, D-4",
+      "student_answer": "A-2, B-1, C-4, D-3",
+      "explanation": "Original Jurisdiction - Article 131. Appellate Jurisdiction - Articles 132-134. Advisory Jurisdiction - Article 143. Review Jurisdiction - Article 137.",
+      "student_mistake_reason": "Confused Appellate Jurisdiction articles",
+      "mistake_type": "confusion_similar",
+      "confidence": 2,
+      "time_spent": 70,
+      "severity": "HIGH",
+      "syllabus_pointer": "Judiciary - Supreme Court Jurisdiction",
+      "pyq_pattern": "Similar to 2015 Q40, 2022 Q35"
+    },
+    {
+      "q_id": 8,
+      "subject": "Polity",
+      "topic": "Fundamental Duties",
+      "subtopic": "List of Fundamental Duties",
+      "question_type": "factual",
+      "difficulty": "easy",
+      "correct_answer": "To pay taxes honestly and promptly",
+      "student_answer": "To protect and improve the natural environment",
+      "explanation": "Paying taxes is a legal obligation under various tax laws but is NOT listed as a Fundamental Duty under Article 51A.",
+      "student_mistake_reason": "Confused legal obligation with Fundamental Duty",
+      "mistake_type": "partial_knowledge",
+      "confidence": 2,
+      "time_spent": 30,
+      "severity": "LOW",
+      "syllabus_pointer": "Fundamental Duties - Article 51A",
+      "pyq_pattern": "Similar to 2017 Q50, 2023 Q55"
+    },
+    {
+      "q_id": 12,
+      "subject": "History",
+      "topic": "Modern India – Social Reform",
+      "subtopic": "Social Reform Movements",
+      "question_type": "statement_based",
+      "difficulty": "medium",
+      "correct_answer": "1 and 2 only",
+      "student_answer": "1, 2 and 3",
+      "explanation": "Statement 1 is correct: Jyotirao Phule founded Satyashodhak Samaj. Statement 2 is correct: Raja Ram Mohan Roy founded Brahmo Samaj. Statement 3 is incorrect: Swami Vivekananda founded Ramakrishna Mission. Arya Samaj was founded by Swami Dayanand Saraswati.",
+      "student_mistake_reason": "Confused Vivenananda with Dayanand Saraswati",
+      "mistake_type": "confusion_similar",
+      "confidence": 2,
+      "time_spent": 45,
+      "severity": "HIGH",
+      "syllabus_pointer": "Modern India - Social Reform Movements",
+      "pyq_pattern": "Similar to 2019 Q35, 2024 Q42"
+    },
+    {
+      "q_id": 17,
+      "subject": "Geography",
+      "topic": "Indian Geography – Drainage",
+      "subtopic": "River Systems",
+      "question_type": "factual",
+      "difficulty": "medium",
+      "correct_answer": "Mahanadi",
+      "student_answer": "Son",
+      "explanation": "The Amarkantak Hills is the origin of Narmada, Son, and Johila rivers. The Mahanadi originates from the Siwari hills in Chhattisgarh, not Amarkantak.",
+      "student_mistake_reason": "Confused Mahanadi origin",
+      "mistake_type": "confusion_similar",
+      "confidence": 2,
+      "time_spent": 40,
+      "severity": "HIGH",
+      "syllabus_pointer": "Indian Geography - River Systems",
+      "pyq_pattern": "Similar to 2017 Q60, 2022 Q55"
+    },
+    {
+      "q_id": 18,
+      "subject": "Geography",
+      "topic": "Indian Geography – Climate",
+      "subtopic": "Climate Regions",
+      "question_type": "statement_based",
+      "difficulty": "medium",
+      "correct_answer": "2 and 3 only",
+      "student_answer": "1 and 2 only",
+      "explanation": "Statement 1 is incorrect: Most peninsular India falls under Tropical Wet and Dry climate. Statement 2 is correct: Western coast falls under Tropical Monsoon (Am). Statement 3 is correct: Himalayan region falls under Highland climate (H).",
+      "student_mistake_reason": "Misinterpreted Aw climate",
+      "mistake_type": "misinterpretation",
+      "confidence": 2,
+      "time_spent": 55,
+      "severity": "LOW",
+      "syllabus_pointer": "Indian Geography - Climate Classification",
+      "pyq_pattern": "Similar to 2019 Q65, 2024 Q62"
+    },
+    {
+      "q_id": 21,
+      "subject": "Geography",
+      "topic": "World Geography",
+      "subtopic": "Natural Hazards",
+      "question_type": "mapping",
+      "difficulty": "hard",
+      "correct_answer": "Southeast Asia (Indo-Pacific)",
+      "student_answer": "Caribbean Sea",
+      "explanation": "The Coral Triangle is in the Western Pacific Ocean around Indonesia, Malaysia, Papua New Guinea, Philippines, Solomon Islands, and Timor-Leste. It contains 76% of the world's coral species.",
+      "student_mistake_reason": "Guessed - confused with Caribbean",
+      "mistake_type": "guesswork",
+      "confidence": 1,
+      "time_spent": 25,
+      "severity": "MEDIUM",
+      "syllabus_pointer": "World Geography - Coral Triangle",
+      "pyq_pattern": "Similar to 2021 Q75, 2024 Q78"
+    },
+    {
+      "q_id": 23,
+      "subject": "Geography",
+      "topic": "Physical Geography – Oceanography",
+      "subtopic": "Ocean Currents",
+      "question_type": "factual",
+      "difficulty": "hard",
+      "correct_answer": "Cold current in the Pacific Ocean",
+      "student_answer": "Warm current in the Indian Ocean",
+      "explanation": "The Humboldt Current (Peru Current) is a cold, low-salinity ocean current flowing northward along the western coast of South America.",
+      "student_mistake_reason": "Confused with warm current",
+      "mistake_type": "confusion_similar",
+      "confidence": 2,
+      "time_spent": 40,
+      "severity": "HIGH",
+      "syllabus_pointer": "Oceanography - Ocean Currents",
+      "pyq_pattern": "Similar to 2015 Q82, 2020 Q85"
+    },
+    {
+      "q_id": 24,
+      "subject": "Economy",
+      "topic": "Banking & Monetary Policy",
+      "subtopic": "RBI Tools",
+      "question_type": "factual",
+      "difficulty": "medium",
+      "correct_answer": "Margin Requirements",
+      "student_answer": "Bank Rate",
+      "explanation": "Quantitative tools include: Bank Rate, Open Market Operations, CRR, SLR, and Repo/Reverse Repo rates. Margin requirements are qualitative/Selective Credit Control tools.",
+      "student_mistake_reason": "Confused Bank Rate with qualitative tool",
+      "mistake_type": "confusion_similar",
+      "confidence": 2,
+      "time_spent": 50,
+      "severity": "HIGH",
+      "syllabus_pointer": "Economy - RBI Monetary Policy Tools",
+      "pyq_pattern": "Similar to 2019 Q85, 2023 Q88"
+    },
+    {
+      "q_id": 25,
+      "subject": "Economy",
+      "topic": "Budgeting & Fiscal Policy",
+      "subtopic": "Deficit Types",
+      "question_type": "statement_based",
+      "difficulty": "hard",
+      "correct_answer": "1, 2 and 3",
+      "student_answer": "1 and 2 only",
+      "explanation": "All three statements are correct. Fiscal Deficit = Total Expenditure - (Revenue Receipts + Non-debt Capital Receipts). Primary Deficit = Fiscal Deficit - Interest Payments. Effective Revenue Deficit = Revenue Deficit - Grants for creation of capital assets.",
+      "student_mistake_reason": "Didn't know Effective Revenue Deficit",
+      "mistake_type": "partial_knowledge",
+      "confidence": 2,
+      "time_spent": 65,
+      "severity": "MEDIUM",
+      "syllabus_pointer": "Economy - Fiscal Deficits",
+      "pyq_pattern": "Similar to 2018 Q90, 2022 Q92"
+    },
+    {
+      "q_id": 28,
+      "subject": "Economy",
+      "topic": "Government Schemes",
+      "subtopic": "DBT and Financial Inclusion",
+      "question_type": "current_affairs",
+      "difficulty": "medium",
+      "correct_answer": "Aadhaar-linked bank accounts and other digital modes",
+      "student_answer": "Cash transfers only",
+      "explanation": "DBT transfers subsidies directly to beneficiaries using Aadhaar-linked bank accounts and other digital payment modes. As of 2024, DBT has saved over ₹3 lakh crore.",
+      "student_mistake_reason": "Thought DBT was only cash transfers",
+      "mistake_type": "partial_knowledge",
+      "confidence": 2,
+      "time_spent": 30,
+      "severity": "LOW",
+      "syllabus_pointer": "Economy - Direct Benefit Transfer",
+      "pyq_pattern": "Similar to 2019 Q98, 2023 Q95"
+    },
+    {
+      "q_id": 29,
+      "subject": "Economy",
+      "topic": "External Sector",
+      "subtopic": "Balance of Payments",
+      "question_type": "factual",
+      "difficulty": "hard",
+      "correct_answer": "Foreign Direct Investment (FDI)",
+      "student_answer": "Export of software services",
+      "explanation": "The Capital Account records: FDI, FPI/FII, external assistance, NRI deposits, and other capital flows. The Current Account records: trade in goods/services, primary income, and secondary income (remittances).",
+      "student_mistake_reason": "Confused FDI with current account item",
+      "mistake_type": "confusion_similar",
+      "confidence": 2,
+      "time_spent": 45,
+      "severity": "HIGH",
+      "syllabus_pointer": "Economy - Balance of Payments",
+      "pyq_pattern": "Similar to 2018 Q95, 2024 Q98"
+    },
+    {
+      "q_id": 30,
+      "subject": "Economy",
+      "topic": "Poverty & Unemployment",
+      "subtopic": "Measurement Methods",
+      "question_type": "comparison",
+      "difficulty": "medium",
+      "correct_answer": "There is no official poverty estimation currently",
+      "student_answer": "NITI Aayog",
+      "explanation": "There is NO official poverty estimation currently being done by the Indian government. The last official estimates were based on Tendulkar Committee methodology (2011-12). The government currently uses the Multidimensional Poverty Index (MPI) by NITI Aayog.",
+      "student_mistake_reason": "Didn't know official estimation stopped",
+      "mistake_type": "factual_error",
+      "confidence": 2,
+      "time_spent": 35,
+      "severity": "HIGH",
+      "syllabus_pointer": "Economy - Poverty Estimation",
+      "pyq_pattern": "Similar to 2020 Q100, 2023 Q98"
+    },
+    {
+      "q_id": 34,
+      "subject": "Science",
+      "topic": "Biology – Human Physiology",
+      "subtopic": "Immune System",
+      "question_type": "statement_based",
+      "difficulty": "medium",
+      "correct_answer": "2 and 3 only",
+      "student_answer": "1, 2 and 3",
+      "explanation": "Statement 1 is incorrect: Antibodies are produced by B-cells (B-lymphocytes), not T-cells. Statement 2 is correct: Antibodies are proteins called immunoglobulins. Statement 3 is correct: Monoclonal antibodies were used in COVID-19 treatment.",
+      "student_mistake_reason": "Confused T-cells with B-cells",
+      "mistake_type": "confusion_similar",
+      "confidence": 2,
+      "time_spent": 35,
+      "severity": "HIGH",
+      "syllabus_pointer": "Biology - Immune System",
+      "pyq_pattern": "Similar to 2020 Q110, 2022 Q115"
+    },
+    {
+      "q_id": 36,
+      "subject": "Science",
+      "topic": "Chemistry",
+      "subtopic": "Green Chemistry",
+      "question_type": "factual",
+      "difficulty": "hard",
+      "correct_answer": "Paul Anastas and John Warner",
+      "student_answer": "Friedrich Wöhler and Justus von Liebig",
+      "explanation": "The 12 Principles of Green Chemistry were developed by Paul Anastas and John Warner in their 1998 book 'Green Chemistry: Theory and Practice'.",
+      "student_mistake_reason": "Guessed - didn't know the names",
+      "mistake_type": "guesswork",
+      "confidence": 1,
+      "time_spent": 30,
+      "severity": "MEDIUM",
+      "syllabus_pointer": "Chemistry - Green Chemistry",
+      "pyq_pattern": "Similar to 2016 Q118, 2021 Q120"
+    },
+    {
+      "q_id": 37,
+      "subject": "Environment",
+      "topic": "Biodiversity",
+      "subtopic": "Biodiversity Hotspots",
+      "question_type": "mapping",
+      "difficulty": "medium",
+      "correct_answer": "Sundarbans",
+      "student_answer": "Himalayas",
+      "explanation": "India has 4 biodiversity hotspots: Western Ghats, Himalayas, Indo-Burma region, and Sundaland (Nicobar Islands). The Sundarbans is a specific ecosystem but NOT classified as a separate biodiversity hotspot.",
+      "student_mistake_reason": "Confused Sundarbans with hotspot",
+      "mistake_type": "confusion_similar",
+      "confidence": 2,
+      "time_spent": 35,
+      "severity": "HIGH",
+      "syllabus_pointer": "Environment - Biodiversity Hotspots",
+      "pyq_pattern": "Similar to 2018 Q122, 2023 Q125"
+    },
+    {
+      "q_id": 40,
+      "subject": "Environment",
+      "topic": "Environmental Pollution",
+      "subtopic": "Air Pollution",
+      "question_type": "current_affairs",
+      "difficulty": "medium",
+      "correct_answer": "20-30%",
+      "student_answer": "30-40%",
+      "explanation": "NCAP launched in 2019 aims to reduce PM2.5 and PM10 concentration by 20-30% by 2025-26 (later revised to 40% reduction by 2026).",
+      "student_mistake_reason": "Didn't know exact NCAP target",
+      "mistake_type": "partial_knowledge",
+      "confidence": 2,
+      "time_spent": 30,
+      "severity": "LOW",
+      "syllabus_pointer": "Environment - NCAP",
+      "pyq_pattern": "Similar to 2021 Q132, 2024 Q135"
+    },
+    {
+      "q_id": 41,
+      "subject": "Environment",
+      "topic": "International Agreements",
+      "subtopic": "CBD and Nagoya Protocol",
+      "question_type": "factual",
+      "difficulty": "hard",
+      "correct_answer": "Convention on Biological Diversity (CBD)",
+      "student_answer": "Paris Agreement",
+      "explanation": "The Nagoya Protocol is a supplementary agreement to the Convention on Biological Diversity (CBD). It provides a legal framework for fair sharing of benefits from genetic resources.",
+      "student_mistake_reason": "Confused with Paris Agreement",
+      "mistake_type": "confusion_similar",
+      "confidence": 2,
+      "time_spent": 35,
+      "severity": "HIGH",
+      "syllabus_pointer": "Environment - Nagoya Protocol",
+      "pyq_pattern": "Similar to 2019 Q135, 2023 Q138"
+    },
+    {
+      "q_id": 45,
+      "subject": "Current Affairs",
+      "topic": "Science & Tech – Recent",
+      "subtopic": "Artificial Intelligence",
+      "question_type": "current_affairs",
+      "difficulty": "medium",
+      "correct_answer": "AI computing infrastructure",
+      "student_answer": "Cyber defense",
+      "explanation": "AIRAWAT is India's AI computing infrastructure, developed by C-DAC under the National AI Mission. It is one of the largest supercomputing platforms for AI workloads in India.",
+      "student_mistake_reason": "Guessed - confused with cyber defense",
+      "mistake_type": "guesswork",
+      "confidence": 1,
+      "time_spent": 25,
+      "severity": "LOW",
+      "syllabus_pointer": "Current Affairs - India AI Infrastructure",
+      "pyq_pattern": "New pattern (2024 current affairs)"
+    },
+    {
+      "q_id": 48,
+      "subject": "Current Affairs",
+      "topic": "Government Schemes",
+      "subtopic": "Education Reforms",
+      "question_type": "current_affairs",
+      "difficulty": "medium",
+      "correct_answer": "14,500 schools",
+      "student_answer": "5,000 schools",
+      "explanation": "PM SHRI scheme launched in 2022 aims to upgrade 14,500 schools across India to showcase the implementation of NEP 2020.",
+      "student_mistake_reason": "Didn't know exact number",
+      "mistake_type": "partial_knowledge",
+      "confidence": 2,
+      "time_spent": 25,
+      "severity": "LOW",
+      "syllabus_pointer": "Current Affairs - PM SHRI Schools",
+      "pyq_pattern": "New pattern (2022 current affairs)"
+    }
+  ],
+  "pattern_summary": {
+    "total_mistakes": 22,
+    "mistake_type_distribution": {
+      "partial_knowledge": 6,
+      "conceptual_gap": 1,
+      "confusion_similar": 10,
+      "misinterpretation": 1,
+      "guesswork": 3,
+      "factual_error": 1
+    },
+    "most_common_mistake_type": "confusion_similar",
+    "average_time_per_mistake": 40.90909090909091
+  },
+  "focus_areas": [
+    {
+      "subject": "Polity",
+      "accuracy": 37.5,
+      "priority": "HIGH",
+      "topics_to_improve": [
+        {
+          "topic": "Fundamental Rights - Right to Equality (Article 14-18)",
+          "mistake_count": 1,
+          "questions": [
+            1
+          ]
+        },
+        {
+          "topic": "Centre-State Relations - President's Rule (Article 356)",
+          "mistake_count": 1,
+          "questions": [
+            3
+          ]
+        },
+        {
+          "topic": "Fundamental Rights - Right to Freedom of Religion (Article 25-28)",
+          "mistake_count": 1,
+          "questions": [
+            5
+          ]
+        },
+        {
+          "topic": "Judiciary - Supreme Court - Original and Appellate Jurisdiction",
+          "mistake_count": 1,
+          "questions": [
+            6
+          ]
+        },
+        {
+          "topic": "Fundamental Duties - List of Fundamental Duties",
+          "mistake_count": 1,
+          "questions": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "Geography",
+      "accuracy": 50.0,
+      "priority": "MEDIUM",
+      "topics_to_improve": [
+        {
+          "topic": "Indian Geography – Drainage - River Systems",
+          "mistake_count": 1,
+          "questions": [
+            17
+          ]
+        },
+        {
+          "topic": "Indian Geography – Climate - Climate Regions",
+          "mistake_count": 1,
+          "questions": [
+            18
+          ]
+        },
+        {
+          "topic": "World Geography - Natural Hazards",
+          "mistake_count": 1,
+          "questions": [
+            21
+          ]
+        },
+        {
+          "topic": "Physical Geography – Oceanography - Ocean Currents",
+          "mistake_count": 1,
+          "questions": [
+            23
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "Economy",
+      "accuracy": 28.6,
+      "priority": "HIGH",
+      "topics_to_improve": [
+        {
+          "topic": "Banking & Monetary Policy - RBI Tools",
+          "mistake_count": 1,
+          "questions": [
+            24
+          ]
+        },
+        {
+          "topic": "Budgeting & Fiscal Policy - Deficit Types",
+          "mistake_count": 1,
+          "questions": [
+            25
+          ]
+        },
+        {
+          "topic": "Government Schemes - DBT and Financial Inclusion",
+          "mistake_count": 1,
+          "questions": [
+            28
+          ]
+        },
+        {
+          "topic": "External Sector - Balance of Payments",
+          "mistake_count": 1,
+          "questions": [
+            29
+          ]
+        },
+        {
+          "topic": "Poverty & Unemployment - Measurement Methods",
+          "mistake_count": 1,
+          "questions": [
+            30
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "Environment",
+      "accuracy": 50.0,
+      "priority": "MEDIUM",
+      "topics_to_improve": [
+        {
+          "topic": "Biodiversity - Biodiversity Hotspots",
+          "mistake_count": 1,
+          "questions": [
+            37
+          ]
+        },
+        {
+          "topic": "Environmental Pollution - Air Pollution",
+          "mistake_count": 1,
+          "questions": [
+            40
+          ]
+        },
+        {
+          "topic": "International Agreements - CBD and Nagoya Protocol",
+          "mistake_count": 1,
+          "questions": [
+            41
+          ]
+        }
+      ]
+    }
+  ],
+  "strength_areas": [
+    {
+      "subject": "History",
+      "accuracy": 85.7,
+      "recommendation": "Maintain consistency, focus on advanced questions"
+    }
+  ],
+  "recommendations": [
+    {
+      "priority": "HIGH",
+      "category": "Subject Focus",
+      "subject": "Polity",
+      "message": "Focus on Polity - accuracy is 37.5%. Recommended: Revise NCERT basics and solve 50+ PYQs on weak topics.",
+      "action_items": [
+        "Complete NCERT Polity fundamentals",
+        "Solve 30 PYQs on Fundamental Rights - Right to Equality (Article 14-18), Centre-State Relations - President's Rule (Article 356), Fundamental Rights - Right to Freedom of Religion (Article 25-28)",
+        "Take 2 sectional tests on Polity"
+      ],
+      "resources": [
+        "NCERT Class 11: Indian Constitution at Work",
+        "M. Laxmikanth - Indian Polity",
+        "Previous Year Questions (2013-2025)"
+      ]
+    },
+    {
+      "priority": "MEDIUM",
+      "category": "Subject Focus",
+      "subject": "Geography",
+      "message": "Focus on Geography - accuracy is 50.0%. Recommended: Revise NCERT basics and solve 50+ PYQs on weak topics.",
+      "action_items": [
+        "Complete NCERT Geography fundamentals",
+        "Solve 30 PYQs on Indian Geography – Drainage - River Systems, Indian Geography – Climate - Climate Regions, World Geography - Natural Hazards",
+        "Take 2 sectional tests on Geography"
+      ],
+      "resources": [
+        "NCERT Class 11 & 12: Physical Geography, India: Physical Environment",
+        "GC Leong - Certificate Physical and Human Geography",
+        "Majid Hussain - Physical Geography"
+      ]
+    },
+    {
+      "priority": "HIGH",
+      "category": "Subject Focus",
+      "subject": "Economy",
+      "message": "Focus on Economy - accuracy is 28.6%. Recommended: Revise NCERT basics and solve 50+ PYQs on weak topics.",
+      "action_items": [
+        "Complete NCERT Economy fundamentals",
+        "Solve 30 PYQs on Banking & Monetary Policy - RBI Tools, Budgeting & Fiscal Policy - Deficit Types, Government Schemes - DBT and Financial Inclusion",
+        "Take 2 sectional tests on Economy"
+      ],
+      "resources": [
+        "NCERT Class 11 & 12: Indian Economic Development, Macroeconomics",
+        "Ramesh Singh - Indian Economy",
+        "Budget and Economic Survey summaries"
+      ]
+    },
+    {
+      "priority": "MEDIUM",
+      "category": "Subject Focus",
+      "subject": "Environment",
+      "message": "Focus on Environment - accuracy is 50.0%. Recommended: Revise NCERT basics and solve 50+ PYQs on weak topics.",
+      "action_items": [
+        "Complete NCERT Environment fundamentals",
+        "Solve 30 PYQs on Biodiversity - Biodiversity Hotspots, Environmental Pollution - Air Pollution, International Agreements - CBD and Nagoya Protocol",
+        "Take 2 sectional tests on Environment"
+      ],
+      "resources": [
+        "NCERT Class 12: Biology (Chapters on Ecology)",
+        "Shankar IAS Environment",
+        "Down to Earth magazine"
+      ]
+    },
+    {
+      "priority": "HIGH",
+      "category": "Mistake Pattern",
+      "message": "Your most common mistake type is 'confusion_similar'. This indicates a specific weakness that needs targeted intervention.",
+      "action_items": [
+        "Create comparison tables for similar concepts",
+        "Practice 20 questions on distinguishing similar concepts",
+        "Use mnemonics to remember differences"
+      ],
+      "resources": []
+    },
+    {
+      "priority": "LOW",
+      "category": "Strength Maintenance",
+      "subject": "History",
+      "message": "Maintain your strong performance in History (85.7% accuracy).",
+      "action_items": [
+        "Solve advanced PYQs on History",
+        "Link static topics with current affairs",
+        "Take 1 sectional test per week on History"
+      ],
+      "resources": []
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "timestamp": "2026-10-07T23:19:03.956422",
+  "total_questions": 20,
+  "total_students": 5,
+  "results": [
+    {
+      "student": {
+        "id": "STU-001",
+        "name": "Rahul Sharma",
+        "email": "rahul@example.com",
+        "prep_level": "intermediate",
+        "study_hours": 4,
+        "background": "Engineering graduate, working professional",
+        "strengths": [
+          "Geography",
+          "Science"
+        ],
+        "weaknesses": [
+          "Polity",
+          "Economy"
+        ],
+        "mistake_tendencies": [
+          "confusion_similar",
+          "guesswork"
+        ],
+        "avg_time_per_question": 45
+      },
+      "session": "TEST-STU-001-1",
+      "correct": 8,
+      "incorrect": 9,
+      "unanswered": 3,
+      "accuracy": 40.0,
+      "mistakes": 12,
+      "patterns": 6,
+      "subject_perf": [
+        {
+          "subject": "Polity",
+          "total": 7,
+          "correct": 2,
+          "accuracy": 28.6,
+          "status": "weak"
+        },
+        {
+          "subject": "Economy",
+          "total": 7,
+          "correct": 1,
+          "accuracy": 14.3,
+          "status": "weak"
+        },
+        {
+          "subject": "Geography",
+          "total": 6,
+          "correct": 5,
+          "accuracy": 83.3,
+          "status": "strong"
+        }
+      ]
+    },
+    {
+      "student": {
+        "id": "STU-002",
+        "name": "Priya Patel",
+        "email": "priya@example.com",
+        "prep_level": "advanced",
+        "study_hours": 8,
+        "background": "Law graduate, full-time aspirant",
+        "strengths": [
+          "Polity",
+          "Environment"
+        ],
+        "weaknesses": [
+          "Science",
+          "Geography"
+        ],
+        "mistake_tendencies": [
+          "time_pressure"
+        ],
+        "avg_time_per_question": 35
+      },
+      "session": "TEST-STU-002-1",
+      "correct": 8,
+      "incorrect": 11,
+      "unanswered": 1,
+      "accuracy": 40.0,
+      "mistakes": 12,
+      "patterns": 6,
+      "subject_perf": [
+        {
+          "subject": "Polity",
+          "total": 7,
+          "correct": 5,
+          "accuracy": 71.4,
+          "status": "strong"
+        },
+        {
+          "subject": "Economy",
+          "total": 7,
+          "correct": 2,
+          "accuracy": 28.6,
+          "status": "weak"
+        },
+        {
+          "subject": "Geography",
+          "total": 6,
+          "correct": 1,
+          "accuracy": 16.7,
+          "status": "weak"
+        }
+      ]
+    },
+    {
+      "student": {
+        "id": "STU-003",
+        "name": "Amit Kumar",
+        "email": "amit@example.com",
+        "prep_level": "beginner",
+        "study_hours": 2,
+        "background": "Commerce student, first attempt",
+        "strengths": [
+          "Economy"
+        ],
+        "weaknesses": [
+          "Polity",
+          "Geography",
+          "Science",
+          "Environment"
+        ],
+        "mistake_tendencies": [
+          "guesswork",
+          "partial_knowledge"
+        ],
+        "avg_time_per_question": 60
+      },
+      "session": "TEST-STU-003-1",
+      "correct": 10,
+      "incorrect": 8,
+      "unanswered": 2,
+      "accuracy": 50.0,
+      "mistakes": 10,
+      "patterns": 6,
+      "subject_perf": [
+        {
+          "subject": "Polity",
+          "total": 7,
+          "correct": 3,
+          "accuracy": 42.9,
+          "status": "weak"
+        },
+        {
+          "subject": "Economy",
+          "total": 7,
+          "correct": 4,
+          "accuracy": 57.1,
+          "status": "average"
+        },
+        {
+          "subject": "Geography",
+          "total": 6,
+          "correct": 3,
+          "accuracy": 50.0,
+          "status": "average"
+        }
+      ]
+    },
+    {
+      "student": {
+        "id": "STU-004",
+        "name": "Sneha Reddy",
+        "email": "sneha@example.com",
+        "prep_level": "advanced",
+        "study_hours": 10,
+        "background": "Medicine graduate, 2nd attempt",
+        "strengths": [
+          "Science",
+          "Environment"
+        ],
+        "weaknesses": [
+          "Economy",
+          "Polity"
+        ],
+        "mistake_tendencies": [
+          "factual_error"
+        ],
+        "avg_time_per_question": 30
+      },
+      "session": "TEST-STU-004-1",
+      "correct": 8,
+      "incorrect": 10,
+      "unanswered": 2,
+      "accuracy": 40.0,
+      "mistakes": 12,
+      "patterns": 6,
+      "subject_perf": [
+        {
+          "subject": "Polity",
+          "total": 7,
+          "correct": 2,
+          "accuracy": 28.6,
+          "status": "weak"
+        },
+        {
+          "subject": "Economy",
+          "total": 7,
+          "correct": 3,
+          "accuracy": 42.9,
+          "status": "weak"
+        },
+        {
+          "subject": "Geography",
+          "total": 6,
+          "correct": 3,
+          "accuracy": 50.0,
+          "status": "average"
+        }
+      ]
+    },
+    {
+      "student": {
+        "id": "STU-005",
+        "name": "Vikram Singh",
+        "email": "vikram@example.com",
+        "prep_level": "intermediate",
+        "study_hours": 6,
+        "background": "History graduate, teaching job",
+        "strengths": [
+          "Polity",
+          "Environment"
+        ],
+        "weaknesses": [
+          "Science",
+          "Economy"
+        ],
+        "mistake_tendencies": [
+          "misinterpretation",
+          "partial_knowledge"
+        ],
+        "avg_time_per_question": 50
+      },
+      "session": "TEST-STU-005-1",
+      "correct": 6,
+      "incorrect": 12,
+      "unanswered": 2,
+      "accuracy": 30.0,
+      "mistakes": 14,
+      "patterns": 7,
+      "subject_perf": [
+        {
+          "subject": "Polity",
+          "total": 7,
+          "correct": 4,
+          "accuracy": 57.1,
+          "status": "average"
+        },
+        {
+          "subject": "Economy",
+          "total": 7,
+          "correct": 0,
+          "accuracy": 0.0,
+          "status": "weak"
+        },
+        {
+          "subject": "Geography",
+          "total": 6,
+          "correct": 2,
+          "accuracy": 33.3,
+          "status": "weak"
+        }
+      ]
+    }
+  ]
+}

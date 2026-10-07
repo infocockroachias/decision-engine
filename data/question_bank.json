@@ -1,0 +1,1002 @@
+[
+  {
+    "q_id": 1,
+    "subject": "Polity",
+    "topic": "Fundamental Rights",
+    "subtopic": "Right to Equality (Article 14-18)",
+    "type": "statement_based",
+    "difficulty": "medium",
+    "question": "Consider the following statements:\n1. Article 14 guarantees equality before law to all persons including non-citizens.\n2. Article 15 permits the State to make special provisions for women and children.\n3. Article 16 permits reservation in government jobs based on religion.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "1 and 2 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correct": "1 and 2 only",
+    "correct_index": 1,
+    "explanation": "Statement 1 is correct: Article 14 uses 'persons' not 'citizens', so it applies to all. Statement 2 is correct: Article 15(3) allows special provisions for women and children. Statement 3 is incorrect: Article 16 does not permit reservation based on religion (this was struck down in Indra Sawhney case).",
+    "syllabus_pointer": "Fundamental Rights - Right to Equality",
+    "pyq_pattern": "Similar to 2020 Q1, 2019 Q3"
+  },
+  {
+    "q_id": 2,
+    "subject": "Polity",
+    "topic": "Parliament",
+    "subtopic": "Money Bill vs Financial Bill",
+    "type": "factual",
+    "difficulty": "easy",
+    "question": "A Money Bill under Article 110 of the Constitution can be introduced in:",
+    "options": [
+      "Lok Sabha only",
+      "Rajya Sabha only",
+      "Either House of Parliament",
+      "Joint Session of Parliament"
+    ],
+    "correct": "Lok Sabha only",
+    "correct_index": 0,
+    "explanation": "Article 110 clearly states that a Money Bill can only be introduced in the Lok Sabha, and only on the recommendation of the President.",
+    "syllabus_pointer": "Parliament - Money Bill provisions",
+    "pyq_pattern": "Similar to 2018 Q5, 2021 Q12"
+  },
+  {
+    "q_id": 3,
+    "subject": "Polity",
+    "topic": "Centre-State Relations",
+    "subtopic": "President's Rule (Article 356)",
+    "type": "statement_based",
+    "difficulty": "medium",
+    "question": "Consider the following statements regarding President's Rule under Article 356:\n1. The proclamation requires approval of both Houses within 2 months.\n2. Judicial review of President's Rule is barred by the Constitution.\n3. The maximum duration for which President's Rule can be extended is 3 years.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "1 and 3 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correct": "1 and 3 only",
+    "correct_index": 1,
+    "explanation": "Statement 1 is correct: Both Houses must approve within 2 months. Statement 2 is incorrect: Judicial review is NOT barred - the Supreme Court in S.R. Bommai case (1994) established that President's Rule can be reviewed. Statement 3 is correct: Maximum duration is 3 years.",
+    "syllabus_pointer": "Centre-State Relations - Emergency Provisions",
+    "pyq_pattern": "Similar to 2016 Q8, 2022 Q15"
+  },
+  {
+    "q_id": 4,
+    "subject": "Polity",
+    "topic": "Constitutional Bodies",
+    "subtopic": "Election Commission of India",
+    "type": "factual",
+    "difficulty": "easy",
+    "question": "The Chief Election Commissioner of India can be removed from office before expiry of tenure by:",
+    "options": [
+      "President on the recommendation of Supreme Court",
+      "President on the recommendation of Parliament",
+      "President on the advice of Prime Minister",
+      "Cannot be removed before expiry of tenure"
+    ],
+    "correct": "President on the recommendation of Parliament",
+    "correct_index": 1,
+    "explanation": "The CEC can be removed by the President on the recommendation of both Houses of Parliament (special majority).",
+    "syllabus_pointer": "Constitutional Bodies - Election Commission",
+    "pyq_pattern": "Similar to 2017 Q18, 2023 Q22"
+  },
+  {
+    "q_id": 5,
+    "subject": "Polity",
+    "topic": "Fundamental Rights",
+    "subtopic": "Right to Freedom of Religion (Article 25-28)",
+    "type": "analytical",
+    "difficulty": "hard",
+    "question": "Article 25 guarantees freedom of conscience and the right to profess, practice and propagate religion. However, this right is subject to:",
+    "options": [
+      "Public order only",
+      "Public order and morality only",
+      "Public order, morality and health only",
+      "Public order, morality, health and other provisions of Part III"
+    ],
+    "correct": "Public order, morality, health and other provisions of Part III",
+    "correct_index": 3,
+    "explanation": "Article 25(1) states that all persons are equally entitled to freedom of conscience, subject to public order, morality and health and to the other provisions of Part III.",
+    "syllabus_pointer": "Fundamental Rights - Right to Freedom of Religion",
+    "pyq_pattern": "Similar to 2019 Q25, 2021 Q30"
+  },
+  {
+    "q_id": 6,
+    "subject": "Polity",
+    "topic": "Judiciary",
+    "subtopic": "Supreme Court - Original and Appellate Jurisdiction",
+    "type": "matching",
+    "difficulty": "medium",
+    "question": "Match the following:\nList-I (Jurisdiction Type)          List-II (Article Number)\nA. Original Jurisdiction           1. Article 131\nB. Appellate Jurisdiction          2. Articles 132-134\nC. Advisory Jurisdiction           3. Article 143\nD. Review Jurisdiction             4. Article 137",
+    "options": [
+      "A-1, B-2, C-3, D-4",
+      "A-2, B-1, C-4, D-3",
+      "A-1, B-3, C-2, D-4",
+      "A-3, B-1, C-2, D-4"
+    ],
+    "correct": "A-1, B-2, C-3, D-4",
+    "correct_index": 0,
+    "explanation": "Original Jurisdiction - Article 131. Appellate Jurisdiction - Articles 132-134. Advisory Jurisdiction - Article 143. Review Jurisdiction - Article 137.",
+    "syllabus_pointer": "Judiciary - Supreme Court Jurisdiction",
+    "pyq_pattern": "Similar to 2015 Q40, 2022 Q35"
+  },
+  {
+    "q_id": 7,
+    "subject": "Polity",
+    "topic": "Panchayati Raj",
+    "subtopic": "73rd Amendment Act",
+    "type": "factual",
+    "difficulty": "medium",
+    "question": "The 73rd Constitutional Amendment Act, 1992 added which Parts and Schedules to the Constitution?",
+    "options": [
+      "Part IX and 11th Schedule",
+      "Part IXA and 11th Schedule",
+      "Part IX and 12th Schedule",
+      "Part IXA and 12th Schedule"
+    ],
+    "correct": "Part IX and 11th Schedule",
+    "correct_index": 0,
+    "explanation": "The 73rd Amendment added Part IX (Articles 243-243O) dealing with Panchayats and the 11th Schedule (Article 243G) containing 29 subjects.",
+    "syllabus_pointer": "Panchayati Raj - 73rd Amendment",
+    "pyq_pattern": "Similar to 2018 Q45, 2024 Q38"
+  },
+  {
+    "q_id": 8,
+    "subject": "Polity",
+    "topic": "Fundamental Duties",
+    "subtopic": "List of Fundamental Duties",
+    "type": "factual",
+    "difficulty": "easy",
+    "question": "Which of the following is NOT a Fundamental Duty under Article 51A of the Indian Constitution?",
+    "options": [
+      "To develop scientific temper, humanism and spirit of inquiry",
+      "To protect and improve the natural environment",
+      "To pay taxes honestly and promptly",
+      "To value and preserve the rich heritage of our composite culture"
+    ],
+    "correct": "To pay taxes honestly and promptly",
+    "correct_index": 2,
+    "explanation": "Paying taxes is a legal obligation under various tax laws but is NOT listed as a Fundamental Duty under Article 51A.",
+    "syllabus_pointer": "Fundamental Duties - Article 51A",
+    "pyq_pattern": "Similar to 2017 Q50, 2023 Q55"
+  },
+  {
+    "q_id": 9,
+    "subject": "History",
+    "topic": "Modern India – National Movement",
+    "subtopic": "Gandhi & Mass Movements",
+    "type": "statement_based",
+    "difficulty": "medium",
+    "question": "Consider the following statements about the Civil Disobedience Movement:\n1. It began with the Dandi March in 1930.\n2. The movement was withdrawn immediately after the Gandhi-Irwin Pact.\n3. Women participated in large numbers in this movement.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "1 and 2 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correct": "1 and 3 only",
+    "correct_index": 2,
+    "explanation": "Statement 1 is correct: The CDM began with the Salt March (Dandi March). Statement 2 is incorrect: The movement was NOT withdrawn after the Gandhi-Irwin Pact. Statement 3 is correct: Women participated in large numbers.",
+    "syllabus_pointer": "Modern India - Civil Disobedience Movement",
+    "pyq_pattern": "Similar to 2019 Q12, 2021 Q8"
+  },
+  {
+    "q_id": 10,
+    "subject": "History",
+    "topic": "Ancient India",
+    "subtopic": "Mauryan Empire - Ashoka",
+    "type": "factual",
+    "difficulty": "easy",
+    "question": "The Kalinga War, which changed the life of Ashoka, took place in:",
+    "options": [
+      "261 BCE",
+      "273 BCE",
+      "232 BCE",
+      "250 BCE"
+    ],
+    "correct": "261 BCE",
+    "correct_index": 0,
+    "explanation": "The Kalinga War took place in 261 BCE, during the 8th year of Ashoka's reign. The massive destruction led to Ashoka's conversion to Buddhism.",
+    "syllabus_pointer": "Ancient India - Mauryan Empire",
+    "pyq_pattern": "Similar to 2018 Q25, 2022 Q20"
+  },
+  {
+    "q_id": 11,
+    "subject": "History",
+    "topic": "Medieval India",
+    "subtopic": "Mughal Administration",
+    "type": "matching",
+    "difficulty": "medium",
+    "question": "Match the Mughal emperors with their notable contributions:\nA. Akbar – Mansabdari system\nB. Shah Jahan – Built Red Fort, Taj Mahal\nC. Aurangzeb – Expanded to Deccan, strict Islamic policies\nD. Jahangir – Married Nur Jahan, patronized painting",
+    "options": [
+      "A-2, B-1, C-3, D-4",
+      "A-1, B-2, C-4, D-3",
+      "A-2, B-3, C-1, D-4",
+      "A-3, B-1, C-2, D-4"
+    ],
+    "correct": "A-2, B-1, C-3, D-4",
+    "correct_index": 0,
+    "explanation": "Akbar introduced Mansabdari system. Shah Jahan built Red Fort and Taj Mahal. Aurangzeb expanded empire to Deccan. Jahangir patronized painting.",
+    "syllabus_pointer": "Medieval India - Mughal Administration",
+    "pyq_pattern": "Similar to 2016 Q30, 2023 Q28"
+  },
+  {
+    "q_id": 12,
+    "subject": "History",
+    "topic": "Modern India – Social Reform",
+    "subtopic": "Social Reform Movements",
+    "type": "statement_based",
+    "difficulty": "medium",
+    "question": "Consider the following social reformers and their associated movements:\n1. Jyotirao Phule - Satyashodhak Samaj\n2. Raja Ram Mohan Roy - Brahmo Samaj\n3. Swami Vivekananda - Arya Samaj\nWhich of the above is/are correctly matched?",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correct": "1 and 2 only",
+    "correct_index": 0,
+    "explanation": "Statement 1 is correct: Jyotirao Phule founded Satyashodhak Samaj. Statement 2 is correct: Raja Ram Mohan Roy founded Brahmo Samaj. Statement 3 is incorrect: Swami Vivekananda founded Ramakrishna Mission. Arya Samaj was founded by Swami Dayanand Saraswati.",
+    "syllabus_pointer": "Modern India - Social Reform Movements",
+    "pyq_pattern": "Similar to 2019 Q35, 2024 Q42"
+  },
+  {
+    "q_id": 13,
+    "subject": "History",
+    "topic": "Modern India – British Policies",
+    "subtopic": "Economic Impact of British Rule",
+    "type": "cause_effect",
+    "difficulty": "hard",
+    "question": "The 'Drain of Wealth' theory during British rule in India was propounded by:",
+    "options": [
+      "Mahatma Gandhi",
+      "Dadabhai Naoroji",
+      "Raja Ram Mohan Roy",
+      "Bal Gangadhar Tilak"
+    ],
+    "correct": "Dadabhai Naoroji",
+    "correct_index": 1,
+    "explanation": "Dadabhai Naoroji first systematically articulated the 'Drain of Wealth' theory in his book 'Poverty and Un-British Rule in India' (1901).",
+    "syllabus_pointer": "Modern India - Drain of Wealth Theory",
+    "pyq_pattern": "Similar to 2017 Q40, 2022 Q45"
+  },
+  {
+    "q_id": 14,
+    "subject": "History",
+    "topic": "Art & Culture",
+    "subtopic": "Temple Architecture",
+    "type": "factual",
+    "difficulty": "medium",
+    "question": "The Brihadeshwara Temple at Thanjavur, a UNESCO World Heritage Site, was built by:",
+    "options": [
+      "Krishna I of Rashtrakuta",
+      "Rajaraja Chola I",
+      "Narasimhavarman II of Pallava",
+      "Pulakeshin II of Chalukya"
+    ],
+    "correct": "Rajaraja Chola I",
+    "correct_index": 1,
+    "explanation": "The Brihadeshwara Temple was built by Chola emperor Rajaraja I around 1010 CE. It is a masterpiece of Dravidian architecture.",
+    "syllabus_pointer": "Art & Culture - Temple Architecture",
+    "pyq_pattern": "Similar to 2020 Q48, 2024 Q50"
+  },
+  {
+    "q_id": 15,
+    "subject": "History",
+    "topic": "Modern India – Revolt of 1857",
+    "subtopic": "Causes and Leaders",
+    "type": "factual",
+    "difficulty": "easy",
+    "question": "The 'Doctrine of Lapse' policy, which annexed many Indian princely states, was introduced by:",
+    "options": [
+      "Lord Cornwallis",
+      "Lord Wellesley",
+      "Lord Dalhousie",
+      "Lord Canning"
+    ],
+    "correct": "Lord Dalhousie",
+    "correct_index": 2,
+    "explanation": "The Doctrine of Lapse was introduced by Lord Dalhousie (Governor-General 1848-1856). This policy was a major cause of the 1857 Revolt.",
+    "syllabus_pointer": "Modern India - Doctrine of Lapse",
+    "pyq_pattern": "Similar to 2016 Q45, 2021 Q52"
+  },
+  {
+    "q_id": 16,
+    "subject": "Geography",
+    "topic": "Physical Geography – Climatology",
+    "subtopic": "Monsoon Mechanism",
+    "type": "cause_effect",
+    "difficulty": "hard",
+    "question": "The Indian monsoon is primarily caused by:",
+    "options": [
+      "Rotation of the Earth only",
+      "Differential heating of land and sea only",
+      "Shift of the Inter-Tropical Convergence Zone (ITCZ) only",
+      "Combined effect of differential heating, ITCZ shift, and other factors"
+    ],
+    "correct": "Combined effect of differential heating, ITCZ shift, and other factors",
+    "correct_index": 3,
+    "explanation": "The Indian monsoon is a complex phenomenon caused by multiple factors: differential heating, ITCZ shift, Tibetan plateau heating, jet stream patterns, El Niño/La Niña, and Indian Ocean Dipole.",
+    "syllabus_pointer": "Physical Geography - Monsoon Mechanism",
+    "pyq_pattern": "Similar to 2018 Q55, 2023 Q58"
+  },
+  {
+    "q_id": 17,
+    "subject": "Geography",
+    "topic": "Indian Geography – Drainage",
+    "subtopic": "River Systems",
+    "type": "factual",
+    "difficulty": "medium",
+    "question": "Which of the following rivers does NOT originate from the Amarkantak Hills?",
+    "options": [
+      "Narmada",
+      "Son",
+      "Mahanadi",
+      "Johila"
+    ],
+    "correct": "Mahanadi",
+    "correct_index": 2,
+    "explanation": "The Amarkantak Hills is the origin of Narmada, Son, and Johila rivers. The Mahanadi originates from the Siwari hills in Chhattisgarh, not Amarkantak.",
+    "syllabus_pointer": "Indian Geography - River Systems",
+    "pyq_pattern": "Similar to 2017 Q60, 2022 Q55"
+  },
+  {
+    "q_id": 18,
+    "subject": "Geography",
+    "topic": "Indian Geography – Climate",
+    "subtopic": "Climate Regions",
+    "type": "statement_based",
+    "difficulty": "medium",
+    "question": "Consider the statements about Koeppen's climate classification of India:\n1. Most peninsular India falls under Tropical Savanna climate (Aw).\n2. The western coast falls under Tropical Monsoon climate (Am).\n3. The Himalayan region falls under Highland climate (H).\nWhich of the statements given above is/are correct?",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correct": "2 and 3 only",
+    "correct_index": 1,
+    "explanation": "Statement 1 is incorrect: Most peninsular India falls under Tropical Wet and Dry climate. Statement 2 is correct: Western coast falls under Tropical Monsoon (Am). Statement 3 is correct: Himalayan region falls under Highland climate (H).",
+    "syllabus_pointer": "Indian Geography - Climate Classification",
+    "pyq_pattern": "Similar to 2019 Q65, 2024 Q62"
+  },
+  {
+    "q_id": 19,
+    "subject": "Geography",
+    "topic": "Physical Geography – Geomorphology",
+    "subtopic": "Earthquakes and Volcanoes",
+    "type": "factual",
+    "difficulty": "medium",
+    "question": "The 'Ring of Fire' is associated with:",
+    "options": [
+      "Atlantic Ocean",
+      "Pacific Ocean",
+      "Indian Ocean",
+      "Arctic Ocean"
+    ],
+    "correct": "Pacific Ocean",
+    "correct_index": 1,
+    "explanation": "The 'Ring of Fire' is a major area in the Pacific Ocean where many earthquakes and volcanic eruptions occur. About 75% of the world's active volcanoes and 90% of earthquakes occur here.",
+    "syllabus_pointer": "Physical Geography - Ring of Fire",
+    "pyq_pattern": "Similar to 2016 Q70, 2020 Q68"
+  },
+  {
+    "q_id": 20,
+    "subject": "Geography",
+    "topic": "Indian Geography – Agriculture",
+    "subtopic": "Cropping Patterns",
+    "type": "statement_based",
+    "difficulty": "hard",
+    "question": "Consider the statements about Indian agriculture:\n1. Rice is a kharif crop requiring high rainfall (>100 cm).\n2. Wheat is a rabi crop requiring cool growing season and bright sunshine at ripening.\n3. Cotton is a kharif crop requiring 21°C temperature and 50-75 cm rainfall.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "1 and 2 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correct": "1, 2 and 3",
+    "correct_index": 3,
+    "explanation": "All three statements are correct. Rice is kharif needing >100 cm rainfall. Wheat is rabi needing cool season. Cotton is kharif needing 21-27°C and 50-75 cm rainfall.",
+    "syllabus_pointer": "Indian Agriculture - Cropping Patterns",
+    "pyq_pattern": "Similar to 2018 Q72, 2023 Q70"
+  },
+  {
+    "q_id": 21,
+    "subject": "Geography",
+    "topic": "World Geography",
+    "subtopic": "Natural Hazards",
+    "type": "mapping",
+    "difficulty": "hard",
+    "question": "The 'Coral Triangle', known for the highest marine biodiversity, is located in:",
+    "options": [
+      "Caribbean Sea",
+      "Mediterranean Sea",
+      "Southeast Asia (Indo-Pacific)",
+      "Red Sea"
+    ],
+    "correct": "Southeast Asia (Indo-Pacific)",
+    "correct_index": 2,
+    "explanation": "The Coral Triangle is in the Western Pacific Ocean around Indonesia, Malaysia, Papua New Guinea, Philippines, Solomon Islands, and Timor-Leste. It contains 76% of the world's coral species.",
+    "syllabus_pointer": "World Geography - Coral Triangle",
+    "pyq_pattern": "Similar to 2021 Q75, 2024 Q78"
+  },
+  {
+    "q_id": 22,
+    "subject": "Geography",
+    "topic": "Indian Geography – Soils",
+    "subtopic": "Soil Types",
+    "type": "comparison",
+    "difficulty": "medium",
+    "question": "Which of the following statements correctly differentiates between Alluvial and Black soil?",
+    "options": [
+      "Alluvial soil is found in Deccan region, Black soil in Indo-Gangetic plains",
+      "Alluvial soil is rich in iron oxide, Black soil is rich in potash",
+      "Alluvial soil is transported by rivers, Black soil is formed by weathering of volcanic rock",
+      "Alluvial soil is suitable for cotton, Black soil is suitable for rice"
+    ],
+    "correct": "Alluvial soil is transported by rivers, Black soil is formed by weathering of volcanic rock",
+    "correct_index": 2,
+    "explanation": "Alluvial soil is transported and deposited by rivers (Indo-Gangetic plains). Black soil (Regur) is formed by weathering of volcanic basalt rock in the Deccan Trap region.",
+    "syllabus_pointer": "Indian Geography - Soil Types",
+    "pyq_pattern": "Similar to 2017 Q78, 2022 Q80"
+  },
+  {
+    "q_id": 23,
+    "subject": "Geography",
+    "topic": "Physical Geography – Oceanography",
+    "subtopic": "Ocean Currents",
+    "type": "factual",
+    "difficulty": "hard",
+    "question": "The Humboldt Current, which influences the climate of coastal Peru, is a:",
+    "options": [
+      "Warm current in the Atlantic Ocean",
+      "Cold current in the Pacific Ocean",
+      "Warm current in the Indian Ocean",
+      "Cold current in the Atlantic Ocean"
+    ],
+    "correct": "Cold current in the Pacific Ocean",
+    "correct_index": 1,
+    "explanation": "The Humboldt Current (Peru Current) is a cold, low-salinity ocean current flowing northward along the western coast of South America.",
+    "syllabus_pointer": "Oceanography - Ocean Currents",
+    "pyq_pattern": "Similar to 2015 Q82, 2020 Q85"
+  },
+  {
+    "q_id": 24,
+    "subject": "Economy",
+    "topic": "Banking & Monetary Policy",
+    "subtopic": "RBI Tools",
+    "type": "factual",
+    "difficulty": "medium",
+    "question": "Which of the following is NOT a quantitative tool of the Reserve Bank of India's monetary policy?",
+    "options": [
+      "Bank Rate",
+      "Open Market Operations",
+      "Statutory Liquidity Ratio",
+      "Margin Requirements"
+    ],
+    "correct": "Margin Requirements",
+    "correct_index": 3,
+    "explanation": "Quantitative tools include: Bank Rate, Open Market Operations, CRR, SLR, and Repo/Reverse Repo rates. Margin requirements are qualitative/Selective Credit Control tools.",
+    "syllabus_pointer": "Economy - RBI Monetary Policy Tools",
+    "pyq_pattern": "Similar to 2019 Q85, 2023 Q88"
+  },
+  {
+    "q_id": 25,
+    "subject": "Economy",
+    "topic": "Budgeting & Fiscal Policy",
+    "subtopic": "Deficit Types",
+    "type": "statement_based",
+    "difficulty": "hard",
+    "question": "Consider the following statements about fiscal deficits:\n1. Fiscal Deficit = Total Expenditure - Total Receipts (excluding borrowing).\n2. Primary Deficit = Fiscal Deficit - Interest Payments.\n3. Effective Revenue Deficit excludes grants for capital asset creation.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correct": "1, 2 and 3",
+    "correct_index": 3,
+    "explanation": "All three statements are correct. Fiscal Deficit = Total Expenditure - (Revenue Receipts + Non-debt Capital Receipts). Primary Deficit = Fiscal Deficit - Interest Payments. Effective Revenue Deficit = Revenue Deficit - Grants for creation of capital assets.",
+    "syllabus_pointer": "Economy - Fiscal Deficits",
+    "pyq_pattern": "Similar to 2018 Q90, 2022 Q92"
+  },
+  {
+    "q_id": 26,
+    "subject": "Economy",
+    "topic": "Taxation",
+    "subtopic": "GST Structure",
+    "type": "factual",
+    "difficulty": "easy",
+    "question": "Under the Goods and Services Tax (GST), the tax rate is decided by:",
+    "options": [
+      "Central Government alone",
+      "State Government alone",
+      "GST Council (Centre + States)",
+      "Parliament by simple majority"
+    ],
+    "correct": "GST Council (Centre + States)",
+    "correct_index": 2,
+    "explanation": "The GST Council, chaired by the Union Finance Minister and comprising State Finance Ministers, decides tax rates, exemptions, and other GST policies.",
+    "syllabus_pointer": "Economy - GST Council",
+    "pyq_pattern": "Similar to 2017 Q95, 2021 Q95"
+  },
+  {
+    "q_id": 27,
+    "subject": "Economy",
+    "topic": "Financial Markets",
+    "subtopic": "SEBI and Stock Exchanges",
+    "type": "statement_based",
+    "difficulty": "medium",
+    "question": "Consider the statements about SEBI:\n1. SEBI was established in 1992 through an Act of Parliament.\n2. SEBI regulates both primary and secondary markets.\n3. SEBI has the power to penalize insider trading.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "1 and 2 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correct": "1, 2 and 3",
+    "correct_index": 3,
+    "explanation": "All three statements are correct. SEBI was given statutory powers through the SEBI Act, 1992. It regulates primary and secondary markets and can penalize insider trading.",
+    "syllabus_pointer": "Economy - SEBI Functions",
+    "pyq_pattern": "Similar to 2016 Q92, 2020 Q95"
+  },
+  {
+    "q_id": 28,
+    "subject": "Economy",
+    "topic": "Government Schemes",
+    "subtopic": "DBT and Financial Inclusion",
+    "type": "current_affairs",
+    "difficulty": "medium",
+    "question": "The 'Direct Benefit Transfer' (DBT) scheme aims to transfer subsidies directly to beneficiaries using:",
+    "options": [
+      "Cash transfers only",
+      "Aadhaar-linked bank accounts only",
+      "Aadhaar-linked bank accounts and other digital modes",
+      "Voucher-based system only"
+    ],
+    "correct": "Aadhaar-linked bank accounts and other digital modes",
+    "correct_index": 2,
+    "explanation": "DBT transfers subsidies directly to beneficiaries using Aadhaar-linked bank accounts and other digital payment modes. As of 2024, DBT has saved over ₹3 lakh crore.",
+    "syllabus_pointer": "Economy - Direct Benefit Transfer",
+    "pyq_pattern": "Similar to 2019 Q98, 2023 Q95"
+  },
+  {
+    "q_id": 29,
+    "subject": "Economy",
+    "topic": "External Sector",
+    "subtopic": "Balance of Payments",
+    "type": "factual",
+    "difficulty": "hard",
+    "question": "In India's Balance of Payments, which of the following is recorded in the Capital Account?",
+    "options": [
+      "Export of software services",
+      "Foreign Direct Investment (FDI)",
+      "Remittances from NRIs",
+      "Tourism receipts"
+    ],
+    "correct": "Foreign Direct Investment (FDI)",
+    "correct_index": 1,
+    "explanation": "The Capital Account records: FDI, FPI/FII, external assistance, NRI deposits, and other capital flows. The Current Account records: trade in goods/services, primary income, and secondary income (remittances).",
+    "syllabus_pointer": "Economy - Balance of Payments",
+    "pyq_pattern": "Similar to 2018 Q95, 2024 Q98"
+  },
+  {
+    "q_id": 30,
+    "subject": "Economy",
+    "topic": "Poverty & Unemployment",
+    "subtopic": "Measurement Methods",
+    "type": "comparison",
+    "difficulty": "medium",
+    "question": "The poverty line in India was previously based on the Tendulkar Committee method. Which committee is currently responsible for determining poverty estimates?",
+    "options": [
+      "Rangarajan Committee",
+      "NITI Aayog",
+      "There is no official poverty estimation currently",
+      "Planning Commission (still functional)"
+    ],
+    "correct": "There is no official poverty estimation currently",
+    "correct_index": 2,
+    "explanation": "There is NO official poverty estimation currently being done by the Indian government. The last official estimates were based on Tendulkar Committee methodology (2011-12). The government currently uses the Multidimensional Poverty Index (MPI) by NITI Aayog.",
+    "syllabus_pointer": "Economy - Poverty Estimation",
+    "pyq_pattern": "Similar to 2020 Q100, 2023 Q98"
+  },
+  {
+    "q_id": 31,
+    "subject": "Science",
+    "topic": "Physics – Modern Physics",
+    "subtopic": "Nuclear Physics",
+    "type": "factual",
+    "difficulty": "easy",
+    "question": "The process of splitting a heavy nucleus into two lighter nuclei is called:",
+    "options": [
+      "Nuclear fusion",
+      "Nuclear fission",
+      "Radioactive decay",
+      "Nuclear transmutation"
+    ],
+    "correct": "Nuclear fission",
+    "correct_index": 1,
+    "explanation": "Nuclear fission is the splitting of a heavy nucleus (like Uranium-235) into two lighter nuclei, releasing a large amount of energy. This is the principle behind nuclear reactors.",
+    "syllabus_pointer": "Science - Nuclear Physics",
+    "pyq_pattern": "Similar to 2017 Q102, 2022 Q105"
+  },
+  {
+    "q_id": 32,
+    "subject": "Science",
+    "topic": "Biology – Biotechnology",
+    "subtopic": "CRISPR-Cas9",
+    "type": "current_affairs",
+    "difficulty": "medium",
+    "question": "CRISPR-Cas9 technology, which won the Nobel Prize in Chemistry 2020, is primarily used for:",
+    "options": [
+      "Cloning animals",
+      "Gene editing",
+      "DNA fingerprinting",
+      "Stem cell therapy"
+    ],
+    "correct": "Gene editing",
+    "correct_index": 1,
+    "explanation": "CRISPR-Cas9 is a revolutionary gene editing technology. Jennifer Doudna and Emmanuelle Charpentier won the 2020 Nobel Prize in Chemistry for this technology.",
+    "syllabus_pointer": "Science - Gene Editing Technology",
+    "pyq_pattern": "Similar to 2020 Q105, 2023 Q108"
+  },
+  {
+    "q_id": 33,
+    "subject": "Science",
+    "topic": "Science & Technology – Space",
+    "subtopic": "ISRO Missions",
+    "type": "current_affairs",
+    "difficulty": "medium",
+    "question": "The Chandrayaan-3 mission's Vikram lander successfully soft-landed near which region of the Moon?",
+    "options": [
+      "Lunar equator",
+      "Lunar North Pole",
+      "Lunar South Pole",
+      "Lunar far side (Mare Moscoviense)"
+    ],
+    "correct": "Lunar South Pole",
+    "correct_index": 2,
+    "explanation": "Chandrayaan-3's Vikram lander successfully soft-landed near the Lunar South Pole on August 23, 2023. This made India the first country to land near the South Pole.",
+    "syllabus_pointer": "Science - ISRO Moon Mission",
+    "pyq_pattern": "New pattern (2023 current affairs)"
+  },
+  {
+    "q_id": 34,
+    "subject": "Science",
+    "topic": "Biology – Human Physiology",
+    "subtopic": "Immune System",
+    "type": "statement_based",
+    "difficulty": "medium",
+    "question": "Consider the statements about antibodies:\n1. Antibodies are produced by T-cells.\n2. Antibodies are proteins called immunoglobulins.\n3. Monoclonal antibodies were used in COVID-19 treatment.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "1 and 2 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correct": "2 and 3 only",
+    "correct_index": 2,
+    "explanation": "Statement 1 is incorrect: Antibodies are produced by B-cells (B-lymphocytes), not T-cells. Statement 2 is correct: Antibodies are proteins called immunoglobulins. Statement 3 is correct: Monoclonal antibodies were used in COVID-19 treatment.",
+    "syllabus_pointer": "Biology - Immune System",
+    "pyq_pattern": "Similar to 2020 Q110, 2022 Q115"
+  },
+  {
+    "q_id": 35,
+    "subject": "Science",
+    "topic": "Science & Technology – Defence",
+    "subtopic": "Missile Systems",
+    "type": "factual",
+    "difficulty": "medium",
+    "question": "The 'BrahMos' missile is a:",
+    "options": [
+      "Ballistic missile developed indigenously",
+      "Supersonic cruise missile developed jointly with Russia",
+      "Hypersonic missile developed with USA",
+      "Anti-tank missile developed with Israel"
+    ],
+    "correct": "Supersonic cruise missile developed jointly with Russia",
+    "correct_index": 1,
+    "explanation": "BrahMos is a supersonic cruise missile (Mach 2.8-3.0) developed jointly by India (DRDO) and Russia (NPO Mashinostroyeniya).",
+    "syllabus_pointer": "Science - Defence Technology",
+    "pyq_pattern": "Similar to 2019 Q115, 2024 Q118"
+  },
+  {
+    "q_id": 36,
+    "subject": "Science",
+    "topic": "Chemistry",
+    "subtopic": "Green Chemistry",
+    "type": "factual",
+    "difficulty": "hard",
+    "question": "The '12 Principles of Green Chemistry' were developed by:",
+    "options": [
+      "Paul Anastas and John Warner",
+      "Marie Curie and Linus Pauling",
+      "Friedrich Wöhler and Justus von Liebig",
+      "Robert Bunsen and Gustav Kirchhoff"
+    ],
+    "correct": "Paul Anastas and John Warner",
+    "correct_index": 0,
+    "explanation": "The 12 Principles of Green Chemistry were developed by Paul Anastas and John Warner in their 1998 book 'Green Chemistry: Theory and Practice'.",
+    "syllabus_pointer": "Chemistry - Green Chemistry",
+    "pyq_pattern": "Similar to 2016 Q118, 2021 Q120"
+  },
+  {
+    "q_id": 37,
+    "subject": "Environment",
+    "topic": "Biodiversity",
+    "subtopic": "Biodiversity Hotspots",
+    "type": "mapping",
+    "difficulty": "medium",
+    "question": "Which of the following regions is NOT a biodiversity hotspot in India?",
+    "options": [
+      "Western Ghats",
+      "Himalayas",
+      "Sundarbans",
+      "Indo-Burma region"
+    ],
+    "correct": "Sundarbans",
+    "correct_index": 2,
+    "explanation": "India has 4 biodiversity hotspots: Western Ghats, Himalayas, Indo-Burma region, and Sundaland (Nicobar Islands). The Sundarbans is a specific ecosystem but NOT classified as a separate biodiversity hotspot.",
+    "syllabus_pointer": "Environment - Biodiversity Hotspots",
+    "pyq_pattern": "Similar to 2018 Q122, 2023 Q125"
+  },
+  {
+    "q_id": 38,
+    "subject": "Environment",
+    "topic": "Climate Change",
+    "subtopic": "International Agreements",
+    "type": "statement_based",
+    "difficulty": "hard",
+    "question": "Consider the statements about the Paris Agreement:\n1. It aims to limit global warming to well below 2°C, preferably to 1.5°C.\n2. India's target under NDC is to reduce emissions intensity of GDP by 33-35% by 2030.\n3. The agreement is legally binding on all countries.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "1 and 2 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correct": "1 and 2 only",
+    "correct_index": 1,
+    "explanation": "Statement 1 is correct: The Paris Agreement aims to limit warming to well below 2°C, preferably 1.5°C. Statement 2 is correct: India's NDC target was 33-35% reduction (now enhanced to 45%). Statement 3 is incorrect: The agreement itself is NOT legally binding on emission targets.",
+    "syllabus_pointer": "Environment - Paris Agreement",
+    "pyq_pattern": "Similar to 2019 Q125, 2024 Q128"
+  },
+  {
+    "q_id": 39,
+    "subject": "Environment",
+    "topic": "Protected Areas",
+    "subtopic": "Wildlife Conservation",
+    "type": "factual",
+    "difficulty": "medium",
+    "question": "The 'Project Tiger' was launched in which year?",
+    "options": [
+      "1972",
+      "1973",
+      "1983",
+      "1991"
+    ],
+    "correct": "1973",
+    "correct_index": 1,
+    "explanation": "Project Tiger was launched in 1973 under the Wildlife (Protection) Act, 1972. As of 2024, India has 54 tiger reserves covering over 78,000 sq km.",
+    "syllabus_pointer": "Environment - Project Tiger",
+    "pyq_pattern": "Similar to 2017 Q128, 2022 Q130"
+  },
+  {
+    "q_id": 40,
+    "subject": "Environment",
+    "topic": "Environmental Pollution",
+    "subtopic": "Air Pollution",
+    "type": "current_affairs",
+    "difficulty": "medium",
+    "question": "The 'National Clean Air Programme (NCAP)' aims to reduce PM2.5 and PM10 concentration by what percentage by 2025-26?",
+    "options": [
+      "10-20%",
+      "20-30%",
+      "30-40%",
+      "40-50%"
+    ],
+    "correct": "20-30%",
+    "correct_index": 1,
+    "explanation": "NCAP launched in 2019 aims to reduce PM2.5 and PM10 concentration by 20-30% by 2025-26 (later revised to 40% reduction by 2026).",
+    "syllabus_pointer": "Environment - NCAP",
+    "pyq_pattern": "Similar to 2021 Q132, 2024 Q135"
+  },
+  {
+    "q_id": 41,
+    "subject": "Environment",
+    "topic": "International Agreements",
+    "subtopic": "CBD and Nagoya Protocol",
+    "type": "factual",
+    "difficulty": "hard",
+    "question": "The Nagoya Protocol on Access and Benefit Sharing is a supplementary agreement to:",
+    "options": [
+      "Paris Agreement",
+      "Convention on Biological Diversity (CBD)",
+      "CITES",
+      "Ramsar Convention"
+    ],
+    "correct": "Convention on Biological Diversity (CBD)",
+    "correct_index": 1,
+    "explanation": "The Nagoya Protocol is a supplementary agreement to the Convention on Biological Diversity (CBD). It provides a legal framework for fair sharing of benefits from genetic resources.",
+    "syllabus_pointer": "Environment - Nagoya Protocol",
+    "pyq_pattern": "Similar to 2019 Q135, 2023 Q138"
+  },
+  {
+    "q_id": 42,
+    "subject": "Environment",
+    "topic": "Ecology",
+    "subtopic": "Ecosystem Services",
+    "type": "statement_based",
+    "difficulty": "medium",
+    "question": "Consider the statements about ecosystem services:\n1. Pollination by bees is a supporting service.\n2. Carbon sequestration is a regulating service.\n3. Ecotourism is a cultural service.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "1 and 2 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correct": "2 and 3 only",
+    "correct_index": 2,
+    "explanation": "Statement 1 is incorrect: Pollination is a REGULATING service, not a supporting service. Statement 2 is correct: Carbon sequestration is a regulating service. Statement 3 is correct: Ecotourism is a cultural service.",
+    "syllabus_pointer": "Environment - Ecosystem Services",
+    "pyq_pattern": "Similar to 2020 Q138, 2022 Q140"
+  },
+  {
+    "q_id": 43,
+    "subject": "Current Affairs",
+    "topic": "Government Policies",
+    "subtopic": "PM Gati Shakti",
+    "type": "factual",
+    "difficulty": "easy",
+    "question": "The 'PM Gati Shakti National Master Plan' aims to:",
+    "options": [
+      "Provide universal healthcare",
+      "Create integrated infrastructure and reduce logistics costs",
+      "Promote digital payments",
+      "Develop smart cities"
+    ],
+    "correct": "Create integrated infrastructure and reduce logistics costs",
+    "correct_index": 1,
+    "explanation": "PM Gati Shakti launched in October 2021 aims to create integrated infrastructure for seamless connectivity and reduce logistics costs from 13-14% to single digits.",
+    "syllabus_pointer": "Current Affairs - PM Gati Shakti",
+    "pyq_pattern": "Similar to 2022 Q145, 2024 Q142"
+  },
+  {
+    "q_id": 44,
+    "subject": "Current Affairs",
+    "topic": "International Events",
+    "subtopic": "India's Diplomacy",
+    "type": "current_affairs",
+    "difficulty": "medium",
+    "question": "India hosted the G20 Summit in 2023 under the theme of:",
+    "options": [
+      "One Earth, One Family, One Future",
+      "Vasudhaiva Kutumbakam",
+      "Both A and B are correct",
+      "Neither A nor B is correct"
+    ],
+    "correct": "Both A and B are correct",
+    "correct_index": 2,
+    "explanation": "India hosted the G20 Summit in New Delhi on September 9-10, 2023 under the theme 'One Earth, One Family, One Future' which is the English translation of 'Vasudhaiva Kutumbakam'.",
+    "syllabus_pointer": "Current Affairs - India G20 Presidency",
+    "pyq_pattern": "New pattern (2023 current affairs)"
+  },
+  {
+    "q_id": 45,
+    "subject": "Current Affairs",
+    "topic": "Science & Tech – Recent",
+    "subtopic": "Artificial Intelligence",
+    "type": "current_affairs",
+    "difficulty": "medium",
+    "question": "India's 'AIRAWAT' platform, making headlines recently, is related to:",
+    "options": [
+      "AI computing infrastructure",
+      "Cyber defense",
+      "Satellite communication",
+      "Drone technology"
+    ],
+    "correct": "AI computing infrastructure",
+    "correct_index": 0,
+    "explanation": "AIRAWAT is India's AI computing infrastructure, developed by C-DAC under the National AI Mission. It is one of the largest supercomputing platforms for AI workloads in India.",
+    "syllabus_pointer": "Current Affairs - India AI Infrastructure",
+    "pyq_pattern": "New pattern (2024 current affairs)"
+  },
+  {
+    "q_id": 46,
+    "subject": "Current Affairs",
+    "topic": "Reports & Indices",
+    "subtopic": "Global Indices",
+    "type": "factual",
+    "difficulty": "easy",
+    "question": "India's rank in the Global Innovation Index 2024 released by WIPO is:",
+    "options": [
+      "39th",
+      "40th",
+      "44th",
+      "50th"
+    ],
+    "correct": "39th",
+    "correct_index": 0,
+    "explanation": "India ranked 39th in the Global Innovation Index 2024. India improved from 81st (2015) to 39th (2024), making it the top innovator among lower-middle-income countries.",
+    "syllabus_pointer": "Current Affairs - Global Innovation Index",
+    "pyq_pattern": "Similar to 2023 Q148, 2024 Q145"
+  },
+  {
+    "q_id": 47,
+    "subject": "Current Affairs",
+    "topic": "Defence & Security",
+    "subtopic": "Indigenous Defence",
+    "type": "current_affairs",
+    "difficulty": "medium",
+    "question": "The 'INS Vikrant', India's first indigenously built aircraft carrier, was commissioned in:",
+    "options": [
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "correct": "2022",
+    "correct_index": 2,
+    "explanation": "INS Vikrant (IAC-1) was commissioned on September 2, 2022. Built at Cochin Shipyard Limited, it is India's largest and most complex warship.",
+    "syllabus_pointer": "Current Affairs - INS Vikrant",
+    "pyq_pattern": "New pattern (2022 current affairs)"
+  },
+  {
+    "q_id": 48,
+    "subject": "Current Affairs",
+    "topic": "Government Schemes",
+    "subtopic": "Education Reforms",
+    "type": "current_affairs",
+    "difficulty": "medium",
+    "question": "The 'PM SHRI Schools' scheme aims to upgrade how many schools across India?",
+    "options": [
+      "1,000 schools",
+      "14,500 schools",
+      "1,00,000 schools",
+      "5,000 schools"
+    ],
+    "correct": "14,500 schools",
+    "correct_index": 1,
+    "explanation": "PM SHRI scheme launched in 2022 aims to upgrade 14,500 schools across India to showcase the implementation of NEP 2020.",
+    "syllabus_pointer": "Current Affairs - PM SHRI Schools",
+    "pyq_pattern": "New pattern (2022 current affairs)"
+  },
+  {
+    "q_id": 49,
+    "subject": "Current Affairs",
+    "topic": "International Events",
+    "subtopic": "Climate Action",
+    "type": "current_affairs",
+    "difficulty": "medium",
+    "question": "India's updated NDC under Paris Agreement includes reducing emissions intensity of GDP by what percentage by 2030?",
+    "options": [
+      "33-35%",
+      "40-42%",
+      "45%",
+      "50%"
+    ],
+    "correct": "45%",
+    "correct_index": 2,
+    "explanation": "India's updated NDC (August 2022) enhanced targets: reduce emissions intensity of GDP by 45% by 2030, achieve 50% non-fossil fuel capacity by 2030, and create additional carbon sink of 2.5-3 billion tonnes.",
+    "syllabus_pointer": "Current Affairs - India Updated NDC",
+    "pyq_pattern": "New pattern (2022 current affairs)"
+  },
+  {
+    "q_id": 50,
+    "subject": "Current Affairs",
+    "topic": "Awards & Honours",
+    "subtopic": "International Awards",
+    "type": "current_affairs",
+    "difficulty": "easy",
+    "question": "The 2024 Nobel Prize in Economics was awarded to:",
+    "options": [
+      "Abhijit Banerjee, Esther Duflo, Michael Kremer",
+      "Daron Acemoglu, Simon Johnson, James A. Robinson",
+      "Paul Romer, William Nordhaus",
+      "Amartya Sen"
+    ],
+    "correct": "Daron Acemoglu, Simon Johnson, James A. Robinson",
+    "correct_index": 1,
+    "explanation": "The 2024 Nobel Prize in Economics was awarded to Daron Acemoglu, Simon Johnson, and James A. Robinson for their studies of how institutions are formed and affect prosperity.",
+    "syllabus_pointer": "Current Affairs - 2024 Nobel Economics",
+    "pyq_pattern": "New pattern (2024 current affairs)"
+  }
+]

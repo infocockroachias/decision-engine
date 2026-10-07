@@ -1,0 +1,324 @@
+{
+  "1": {
+    "selected": 3,
+    "time_spent": 45,
+    "confidence": 2,
+    "mistake_type": "partial_knowledge",
+    "explanation": "Confused statement 3 about Article 16"
+  },
+  "2": {
+    "selected": 0,
+    "time_spent": 20,
+    "confidence": 3,
+    "mistake_type": null
+  },
+  "3": {
+    "selected": 0,
+    "time_spent": 60,
+    "confidence": 2,
+    "mistake_type": "conceptual_gap",
+    "explanation": "Didn't know about Bommai case"
+  },
+  "4": {
+    "selected": 1,
+    "time_spent": 15,
+    "confidence": 3,
+    "mistake_type": null
+  },
+  "5": {
+    "selected": 2,
+    "time_spent": 50,
+    "confidence": 2,
+    "mistake_type": "confusion_similar",
+    "explanation": "Confused Article 25 with Article 19 restrictions"
+  },
+  "6": {
+    "selected": 1,
+    "time_spent": 70,
+    "confidence": 2,
+    "mistake_type": "confusion_similar",
+    "explanation": "Confused Appellate Jurisdiction articles"
+  },
+  "7": {
+    "selected": 0,
+    "time_spent": 18,
+    "confidence": 3,
+    "mistake_type": null
+  },
+  "8": {
+    "selected": 1,
+    "time_spent": 30,
+    "confidence": 2,
+    "mistake_type": "partial_knowledge",
+    "explanation": "Confused legal obligation with Fundamental Duty"
+  },
+  "9": {
+    "selected": 2,
+    "time_spent": 25,
+    "confidence": 3,
+    "mistake_type": null
+  },
+  "10": {
+    "selected": 0,
+    "time_spent": 25,
+    "confidence": 3,
+    "mistake_type": null
+  },
+  "11": {
+    "selected": 0,
+    "time_spent": 25,
+    "confidence": 3,
+    "mistake_type": null
+  },
+  "13": {
+    "selected": 1,
+    "time_spent": 25,
+    "confidence": 3,
+    "mistake_type": null
+  },
+  "14": {
+    "selected": 1,
+    "time_spent": 25,
+    "confidence": 3,
+    "mistake_type": null
+  },
+  "15": {
+    "selected": 2,
+    "time_spent": 25,
+    "confidence": 3,
+    "mistake_type": null
+  },
+  "12": {
+    "selected": 3,
+    "time_spent": 45,
+    "confidence": 2,
+    "mistake_type": "confusion_similar",
+    "explanation": "Confused Vivenananda with Dayanand Saraswati"
+  },
+  "16": {
+    "selected": 3,
+    "time_spent": 35,
+    "confidence": 3,
+    "mistake_type": null
+  },
+  "19": {
+    "selected": 1,
+    "time_spent": 35,
+    "confidence": 3,
+    "mistake_type": null
+  },
+  "20": {
+    "selected": 3,
+    "time_spent": 35,
+    "confidence": 3,
+    "mistake_type": null
+  },
+  "22": {
+    "selected": 2,
+    "time_spent": 35,
+    "confidence": 3,
+    "mistake_type": null
+  },
+  "17": {
+    "selected": 1,
+    "time_spent": 40,
+    "confidence": 2,
+    "mistake_type": "confusion_similar",
+    "explanation": "Confused Mahanadi origin"
+  },
+  "18": {
+    "selected": 0,
+    "time_spent": 55,
+    "confidence": 2,
+    "mistake_type": "misinterpretation",
+    "explanation": "Misinterpreted Aw climate"
+  },
+  "21": {
+    "selected": 0,
+    "time_spent": 25,
+    "confidence": 1,
+    "mistake_type": "guesswork",
+    "explanation": "Guessed - confused with Caribbean"
+  },
+  "23": {
+    "selected": 2,
+    "time_spent": 40,
+    "confidence": 2,
+    "mistake_type": "confusion_similar",
+    "explanation": "Confused with warm current"
+  },
+  "24": {
+    "selected": 0,
+    "time_spent": 50,
+    "confidence": 2,
+    "mistake_type": "confusion_similar",
+    "explanation": "Confused Bank Rate with qualitative tool"
+  },
+  "25": {
+    "selected": 0,
+    "time_spent": 65,
+    "confidence": 2,
+    "mistake_type": "partial_knowledge",
+    "explanation": "Didn't know Effective Revenue Deficit"
+  },
+  "26": {
+    "selected": 2,
+    "time_spent": 20,
+    "confidence": 3,
+    "mistake_type": null
+  },
+  "27": {
+    "selected": 3,
+    "time_spent": 25,
+    "confidence": 3,
+    "mistake_type": null
+  },
+  "28": {
+    "selected": 0,
+    "time_spent": 30,
+    "confidence": 2,
+    "mistake_type": "partial_knowledge",
+    "explanation": "Thought DBT was only cash transfers"
+  },
+  "29": {
+    "selected": 0,
+    "time_spent": 45,
+    "confidence": 2,
+    "mistake_type": "confusion_similar",
+    "explanation": "Confused FDI with current account item"
+  },
+  "30": {
+    "selected": 1,
+    "time_spent": 35,
+    "confidence": 2,
+    "mistake_type": "factual_error",
+    "explanation": "Didn't know official estimation stopped"
+  },
+  "31": {
+    "selected": 1,
+    "time_spent": 20,
+    "confidence": 3,
+    "mistake_type": null
+  },
+  "32": {
+    "selected": 1,
+    "time_spent": 20,
+    "confidence": 3,
+    "mistake_type": null
+  },
+  "33": {
+    "selected": 2,
+    "time_spent": 20,
+    "confidence": 3,
+    "mistake_type": null
+  },
+  "35": {
+    "selected": 1,
+    "time_spent": 20,
+    "confidence": 3,
+    "mistake_type": null
+  },
+  "34": {
+    "selected": 3,
+    "time_spent": 35,
+    "confidence": 2,
+    "mistake_type": "confusion_similar",
+    "explanation": "Confused T-cells with B-cells"
+  },
+  "36": {
+    "selected": 2,
+    "time_spent": 30,
+    "confidence": 1,
+    "mistake_type": "guesswork",
+    "explanation": "Guessed - didn't know the names"
+  },
+  "38": {
+    "selected": 1,
+    "time_spent": 40,
+    "confidence": 3,
+    "mistake_type": null
+  },
+  "39": {
+    "selected": 1,
+    "time_spent": 15,
+    "confidence": 3,
+    "mistake_type": null
+  },
+  "42": {
+    "selected": 2,
+    "time_spent": 45,
+    "confidence": 3,
+    "mistake_type": null
+  },
+  "37": {
+    "selected": 1,
+    "time_spent": 35,
+    "confidence": 2,
+    "mistake_type": "confusion_similar",
+    "explanation": "Confused Sundarbans with hotspot"
+  },
+  "40": {
+    "selected": 2,
+    "time_spent": 30,
+    "confidence": 2,
+    "mistake_type": "partial_knowledge",
+    "explanation": "Didn't know exact NCAP target"
+  },
+  "41": {
+    "selected": 0,
+    "time_spent": 35,
+    "confidence": 2,
+    "mistake_type": "confusion_similar",
+    "explanation": "Confused with Paris Agreement"
+  },
+  "43": {
+    "selected": 1,
+    "time_spent": 20,
+    "confidence": 3,
+    "mistake_type": null
+  },
+  "44": {
+    "selected": 2,
+    "time_spent": 20,
+    "confidence": 3,
+    "mistake_type": null
+  },
+  "46": {
+    "selected": 0,
+    "time_spent": 20,
+    "confidence": 3,
+    "mistake_type": null
+  },
+  "47": {
+    "selected": 2,
+    "time_spent": 20,
+    "confidence": 3,
+    "mistake_type": null
+  },
+  "49": {
+    "selected": 2,
+    "time_spent": 20,
+    "confidence": 3,
+    "mistake_type": null
+  },
+  "50": {
+    "selected": 1,
+    "time_spent": 20,
+    "confidence": 3,
+    "mistake_type": null
+  },
+  "45": {
+    "selected": 1,
+    "time_spent": 25,
+    "confidence": 1,
+    "mistake_type": "guesswork",
+    "explanation": "Guessed - confused with cyber defense"
+  },
+  "48": {
+    "selected": 3,
+    "time_spent": 25,
+    "confidence": 2,
+    "mistake_type": "partial_knowledge",
+    "explanation": "Didn't know exact number"
+  }
+}

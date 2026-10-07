@@ -1,0 +1,129 @@
+// Prisma schema for UPSC Prelims Test Analysis App
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model PyqQuestion {
+  id              String       @id @default(cuid())
+  year            Int
+  subject         String
+  topic           String
+  questionText    String       @map("question_text")
+  options         Json
+  correctAnswer   String       @map("correct_answer")
+  explanation     String       @default("")
+  difficulty      String       @default("Medium") // Easy, Medium, Hard
+  questionType    String       @default("MCQ")    @map("question_type") // MCQ, AssertionReason, MatchFollowing
+  createdAt       DateTime     @default(now())   @map("created_at")
+  updatedAt       DateTime     @updatedAt        @map("updated_at")
+
+  responses       Response[]
+
+  @@index([year])
+  @@index([subject])
+  @@index([difficulty])
+  @@map("pyq_questions")
+}
+
+model Student {
+  id            String         @id @default(cuid())
+  name          String
+  email         String         @unique
+  targetExam    String?        @map("target_exam")
+  createdAt     DateTime       @default(now())   @map("created_at")
+  updatedAt     DateTime       @updatedAt        @map("updated_at")
+
+  testSessions  TestSession[]
+
+  @@map("students")
+}
+
+model TestSession {
+  id            String         @id @default(cuid())
+  studentId     String         @map("student_id")
+  status        String         @default("pending") // pending, in_progress, completed, abandoned
+  startedAt     DateTime       @default(now())   @map("started_at")
+  completedAt   DateTime?      @map("completed_at")
+  totalScore    Int?           @map("total_score")
+  totalQuestions Int?          @map("total_questions")
+  correctCount  Int?           @map("correct_count")
+  wrongCount    Int?           @map("wrong_count")
+  unattemptedCount Int?        @map("unattempted_count")
+  createdAt     DateTime       @default(now())   @map("created_at")
+  updatedAt     DateTime       @updatedAt        @map("updated_at")
+
+  student       Student        @relation(fields: [studentId], references: [id])
+  responses     Response[]
+  mistakeCards  MistakeCard[]
+  recommendations Recommendation[]
+
+  @@index([studentId])
+  @@index([status])
+  @@map("test_sessions")
+}
+
+model Response {
+  id                String       @id @default(cuid())
+  sessionId         String       @map("session_id")
+  questionId        String       @map("question_id")
+  selectedOption    String?      @map("selected_option")
+  timeSpentSeconds  Int?         @map("time_spent_seconds")
+  isCorrect         Boolean?     @map("is_correct")
+  createdAt         DateTime     @default(now())   @map("created_at")
+
+  session           TestSession  @relation(fields: [sessionId], references: [id])
+  question          PyqQuestion  @relation(fields: [questionId], references: [id])
+  mistakeCard       MistakeCard?
+
+  @@unique([sessionId, questionId])
+  @@index([sessionId])
+  @@index([questionId])
+  @@map("responses")
+}
+
+model MistakeCard {
+  id                String       @id @default(cuid())
+  sessionId         String       @map("session_id")
+  responseId        String       @unique @map("response_id")
+  topic             String
+  subtopic          String?
+  mistakeType       String       @map("mistake_type") // conceptual, factual, silly_miss, calculation, misread
+  severity          String       @default("medium") // low, medium, high, critical
+  explanation       String
+  recommendation    String
+  pyqPattern        String?      @map("pyq_pattern")
+  isReviewed        Boolean      @default(false) @map("is_reviewed")
+  reviewedAt        DateTime?    @map("reviewed_at")
+  createdAt         DateTime     @default(now())   @map("created_at")
+
+  session           TestSession  @relation(fields: [sessionId], references: [id])
+  response          Response     @relation(fields: [responseId], references: [id])
+
+  @@index([sessionId])
+  @@index([topic])
+  @@index([mistakeType])
+  @@map("mistake_cards")
+}
+
+model Recommendation {
+  id                String       @id @default(cuid())
+  sessionId         String       @map("session_id")
+  category          String       // strength, weakness, time_management, strategy
+  priority          String       @default("medium") // low, medium, high, critical
+  message           String
+  actionItems       Json         @map("action_items")
+  createdAt         DateTime     @default(now())   @map("created_at")
+
+  session           TestSession  @relation(fields: [sessionId], references: [id])
+
+  @@index([sessionId])
+  @@index([category])
+  @@index([priority])
+  @@map("recommendations")
+}

@@ -22,7 +22,6 @@ interface ProfileData {
 }
 
 export default function ProfilePage() {
-  const [currentPage, setCurrentPage] = useState("profile");
   const [profile, setProfile] = useState<ProfileData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -46,7 +45,7 @@ export default function ProfilePage() {
   if (loading) {
     return (
       <div className="min-h-screen bg-slate-50">
-        <Navigation currentPage={currentPage} onNavigate={setCurrentPage} />
+        <Navigation currentPage="profile" />
         <main className="mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:px-8">
           <div className="flex items-center justify-center min-h-[60vh]">
             <div className="text-center">
@@ -62,7 +61,7 @@ export default function ProfilePage() {
   if (error || !profile) {
     return (
       <div className="min-h-screen bg-slate-50">
-        <Navigation currentPage={currentPage} onNavigate={setCurrentPage} />
+        <Navigation currentPage="profile" />
         <main className="mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:px-8">
           <div className="rounded-xl border border-red-200 bg-red-50 p-6 text-center">
             <p className="text-red-700 font-medium">{error || "Profile not found"}</p>
@@ -78,7 +77,7 @@ export default function ProfilePage() {
 
   return (
     <div className="min-h-screen bg-slate-50">
-      <Navigation currentPage={currentPage} onNavigate={setCurrentPage} />
+      <Navigation currentPage="profile" />
       <main className="mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:px-8">
         {/* Profile Header */}
         <div className="mb-8 flex flex-col sm:flex-row items-start sm:items-center gap-4">
@@ -111,15 +110,9 @@ export default function ProfilePage() {
               <h3 className="mb-4 text-lg font-semibold text-slate-900">Improvement Trend</h3>
               <div className="space-y-3">
                 {profile.improvementTrend.map((point) => (
-                  <div key={point.month} className="flex items-center gap-3">
-                    <span className="text-xs text-slate-500 w-12">{point.month}</span>
-                    <div className="flex-1 h-3 rounded-full bg-slate-100 overflow-hidden">
-                      <div
-                        className="h-full rounded-full bg-brand transition-all duration-500"
-                        style={{ width: `${point.accuracy}%` }}
-                      />
-                    </div>
-                    <span className="text-sm font-semibold text-slate-700 w-10 text-right">{point.accuracy}%</span>
+                  <div key={point.month} className="flex items-center justify-between">
+                    <span className="text-sm text-slate-600">{point.month}</span>
+                    <span className="text-sm font-semibold text-slate-900">{point.accuracy}%</span>
                   </div>
                 ))}
               </div>
@@ -129,80 +122,42 @@ export default function ProfilePage() {
 
         {/* Strong & Weak Areas */}
         <div className="mt-8 grid gap-6 lg:grid-cols-2">
-          {/* Strong Areas */}
-          <div>
-            <h3 className="mb-4 text-lg font-semibold text-green-700 flex items-center gap-2">
-              <span>💪</span> Strong Areas
-            </h3>
+          <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
+            <h3 className="mb-4 text-lg font-semibold text-green-700">💪 Strong Areas</h3>
             <div className="space-y-3">
-              {profile.strongAreas.length > 0 ? (
-                profile.strongAreas.map((area) => (
-                  <FocusArea
-                    key={area.topic}
-                    topic={area.topic}
-                    accuracy={area.accuracy}
-                    questionsAttempted={0}
-                    trend="improving"
-                  />
-                ))
-              ) : (
-                <p className="text-sm text-slate-400 text-center py-4">Complete more tests to identify strong areas</p>
-              )}
+              {profile.strongAreas.map((area) => (
+                <div key={area.topic} className="flex items-center justify-between">
+                  <span className="text-sm text-slate-700">{area.topic}</span>
+                  <span className="text-sm font-semibold text-green-600">{area.accuracy}%</span>
+                </div>
+              ))}
             </div>
           </div>
-
-          {/* Weak Areas */}
-          <div>
-            <h3 className="mb-4 text-lg font-semibold text-red-700 flex items-center gap-2">
-              <span>📈</span> Areas to Improve
-            </h3>
+          <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
+            <h3 className="mb-4 text-lg font-semibold text-red-700">🎯 Areas to Improve</h3>
             <div className="space-y-3">
-              {profile.weakAreas.length > 0 ? (
-                profile.weakAreas.map((area) => (
-                  <FocusArea
-                    key={area.topic}
-                    topic={area.topic}
-                    accuracy={area.accuracy}
-                    questionsAttempted={0}
-                    trend="declining"
-                  />
-                ))
-              ) : (
-                <p className="text-sm text-slate-400 text-center py-4">Complete more tests to identify weak areas</p>
-              )}
+              {profile.weakAreas.map((area) => (
+                <div key={area.topic} className="flex items-center justify-between">
+                  <span className="text-sm text-slate-700">{area.topic}</span>
+                  <span className="text-sm font-semibold text-red-600">{area.accuracy}%</span>
+                </div>
+              ))}
             </div>
           </div>
-        </div>
-
-        {/* Recommendations */}
-        <div className="mt-8">
-          <RecommendationList
-            recommendations={[
-              ...profile.weakAreas.slice(0, 3).map((area, i) => ({
-                id: `weak-${i}`,
-                type: "improvement" as const,
-                title: `Improve ${area.topic}`,
-                description: `Your accuracy in ${area.topic} is ${area.accuracy}%. Focus on NCERT books and practice more questions from this area.`,
-                priority: "high" as const,
-                subject: area.topic,
-              })),
-            ]}
-          />
         </div>
 
         {/* Recent Activity */}
         <div className="mt-8">
-          <h3 className="mb-4 text-lg font-semibold text-slate-900">Recent Activity</h3>
+          <h2 className="text-xl font-semibold text-slate-900 mb-4">Recent Activity</h2>
           <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
-            <div className="space-y-4">
+            <div className="space-y-3">
               {profile.recentActivity.map((activity, i) => (
-                <div key={i} className="flex items-start gap-3 border-b border-slate-100 pb-3 last:border-0 last:pb-0">
-                  <div className="h-2 w-2 mt-2 rounded-full bg-brand flex-shrink-0" />
-                  <div className="flex-1">
-                    <p className="text-sm text-slate-700">{activity.action}</p>
-                    <p className="text-xs text-slate-400">{activity.details}</p>
+                <div key={i} className="flex items-center justify-between border-b border-slate-100 pb-3 last:border-0">
+                  <div>
+                    <p className="text-sm font-medium text-slate-900">{activity.action}</p>
+                    <p className="text-xs text-slate-500">{activity.details}</p>
                   </div>
-                  <span className="text-xs text-slate-400 flex-shrink-0">{activity.date}</span>
+                  <span className="text-xs text-slate-400">{activity.date}</span>
                 </div>
               ))}
             </div>

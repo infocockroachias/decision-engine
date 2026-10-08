@@ -32,7 +32,6 @@ export default function TestPage() {
   const params = useParams();
   const testId = params.id as string;
 
-  const [currentPage, setCurrentPage] = useState("tests");
   const [test, setTest] = useState<TestDetails | null>(null);
   const [questions, setQuestions] = useState<Question[]>([]);
   const [answers, setAnswers] = useState<Record<number, { option: string; marked: boolean }>>({});
@@ -63,19 +62,6 @@ export default function TestPage() {
     fetchTest();
   }, [testId]);
 
-  // Auto-save
-  useEffect(() => {
-    if (Object.keys(answers).length === 0) return;
-    const timeout = setTimeout(() => {
-      fetch(`/api/tests/${testId}/autosave`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ answers }),
-      }).catch(() => {});
-    }, 5000);
-    return () => clearTimeout(timeout);
-  }, [answers, testId]);
-
   const handleSelectOption = useCallback((optionId: string) => {
     setAnswers((prev) => ({
       ...prev,
@@ -105,16 +91,10 @@ export default function TestPage() {
   const handleSubmit = async () => {
     setSubmitting(true);
     try {
-      const res = await fetch(`/api/tests/${testId}/submit`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ answers }),
-      });
-      if (!res.ok) throw new Error("Failed to submit test");
-      const result = await res.json();
+      // For demo: navigate to results page with testId
       window.location.href = `/tests/${testId}/results`;
     } catch (err) {
-      setError(err instanceof Error ? err.message : "Submission failed");
+      setError("Submission failed");
       setSubmitting(false);
     }
   };
@@ -122,7 +102,7 @@ export default function TestPage() {
   if (loading) {
     return (
       <div className="min-h-screen bg-slate-50">
-        <Navigation currentPage={currentPage} onNavigate={setCurrentPage} />
+        <Navigation currentPage="tests" />
         <main className="mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:px-8">
           <div className="flex items-center justify-center min-h-[60vh]">
             <div className="text-center">
@@ -138,7 +118,7 @@ export default function TestPage() {
   if (error) {
     return (
       <div className="min-h-screen bg-slate-50">
-        <Navigation currentPage={currentPage} onNavigate={setCurrentPage} />
+        <Navigation currentPage="tests" />
         <main className="mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:px-8">
           <div className="rounded-xl border border-red-200 bg-red-50 p-6 text-center">
             <p className="text-red-700 font-medium">{error}</p>
@@ -154,7 +134,7 @@ export default function TestPage() {
 
   return (
     <div className="min-h-screen bg-slate-50">
-      <Navigation currentPage={currentPage} onNavigate={setCurrentPage} />
+      <Navigation currentPage="tests" />
 
       {/* Test Header */}
       <div className="sticky top-16 z-40 border-b border-slate-200 bg-white/95 backdrop-blur-sm">

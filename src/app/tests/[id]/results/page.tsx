@@ -55,7 +55,6 @@ export default function ResultsPage() {
   const params = useParams();
   const testId = params.id as string;
 
-  const [currentPage, setCurrentPage] = useState("tests");
   const [results, setResults] = useState<ResultsData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -77,28 +76,10 @@ export default function ResultsPage() {
     fetchResults();
   }, [testId]);
 
-  const handleDownloadPDF = async () => {
-    try {
-      const res = await fetch(`/api/tests/${testId}/results/pdf`);
-      if (!res.ok) throw new Error("Failed to generate PDF");
-      const blob = await res.blob();
-      const url = window.URL.createObjectURL(blob);
-      const a = document.createElement("a");
-      a.href = url;
-      a.download = `test-${testId}-results.pdf`;
-      document.body.appendChild(a);
-      a.click();
-      document.body.removeChild(a);
-      window.URL.revokeObjectURL(url);
-    } catch (err) {
-      alert("Failed to download PDF. Please try again.");
-    }
-  };
-
   if (loading) {
     return (
       <div className="min-h-screen bg-slate-50">
-        <Navigation currentPage={currentPage} onNavigate={setCurrentPage} />
+        <Navigation currentPage="tests" />
         <main className="mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:px-8">
           <div className="flex items-center justify-center min-h-[60vh]">
             <div className="text-center">
@@ -114,7 +95,7 @@ export default function ResultsPage() {
   if (error || !results) {
     return (
       <div className="min-h-screen bg-slate-50">
-        <Navigation currentPage={currentPage} onNavigate={setCurrentPage} />
+        <Navigation currentPage="tests" />
         <main className="mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:px-8">
           <div className="rounded-xl border border-red-200 bg-red-50 p-6 text-center">
             <p className="text-red-700 font-medium">{error || "Results not found"}</p>
@@ -128,7 +109,7 @@ export default function ResultsPage() {
 
   return (
     <div className="min-h-screen bg-slate-50">
-      <Navigation currentPage={currentPage} onNavigate={setCurrentPage} />
+      <Navigation currentPage="tests" />
       <main className="mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="mb-8 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
@@ -136,15 +117,6 @@ export default function ResultsPage() {
             <h1 className="text-2xl font-bold text-slate-900">Test Results</h1>
             <p className="text-slate-500">{results.title}</p>
           </div>
-          <button
-            onClick={handleDownloadPDF}
-            className="inline-flex items-center gap-2 rounded-lg bg-brand px-4 py-2 text-sm font-medium text-white hover:bg-brand-dark transition-all"
-          >
-            <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-            </svg>
-            Download PDF
-          </button>
         </div>
 
         {/* Score Summary */}

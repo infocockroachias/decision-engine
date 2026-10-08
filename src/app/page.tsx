@@ -33,7 +33,6 @@ interface TestData {
 }
 
 export default function DashboardPage() {
-  const [currentPage, setCurrentPage] = useState("dashboard");
   const [dashboardData, setDashboardData] = useState<{
     overallStats: { totalTests: number; avgAccuracy: number; bestScore: number; streak: number };
     subjectPerformance: SubjectData[];
@@ -62,7 +61,7 @@ export default function DashboardPage() {
   if (loading) {
     return (
       <div className="min-h-screen bg-slate-50">
-        <Navigation currentPage={currentPage} onNavigate={setCurrentPage} />
+        <Navigation currentPage="dashboard" />
         <main className="mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:px-8">
           <div className="flex items-center justify-center min-h-[60vh]">
             <div className="text-center">
@@ -78,7 +77,7 @@ export default function DashboardPage() {
   if (error) {
     return (
       <div className="min-h-screen bg-slate-50">
-        <Navigation currentPage={currentPage} onNavigate={setCurrentPage} />
+        <Navigation currentPage="dashboard" />
         <main className="mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:px-8">
           <div className="rounded-xl border border-red-200 bg-red-50 p-6 text-center">
             <p className="text-red-700 font-medium">{error}</p>
@@ -93,7 +92,7 @@ export default function DashboardPage() {
 
   return (
     <div className="min-h-screen bg-slate-50">
-      <Navigation currentPage={currentPage} onNavigate={setCurrentPage} />
+      <Navigation currentPage="dashboard" />
       <main className="mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:px-8">
         {/* Welcome Section */}
         <div className="mb-8">
@@ -143,20 +142,14 @@ export default function DashboardPage() {
         <div className="mt-8">
           <div className="flex items-center justify-between mb-4">
             <h2 className="text-xl font-semibold text-slate-900">Recent Tests</h2>
-            <button
-              onClick={() => setCurrentPage("tests")}
-              className="text-sm font-medium text-brand hover:text-brand-dark"
-            >
-              View all →
-            </button>
           </div>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {data?.recentTests.map((test) => (
               <TestItem
                 key={test.id}
                 {...test}
-                onResume={() => setCurrentPage(`test-${test.id}`)}
-                onViewResults={() => setCurrentPage(`results-${test.id}`)}
+                onResume={() => {}}
+                onViewResults={() => {}}
               />
             ))}
           </div>

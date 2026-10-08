@@ -49,7 +49,7 @@ export default function DashboardPage() {
         const res = await fetch("/api/dashboard");
         if (!res.ok) throw new Error("Failed to fetch dashboard data");
         const data = await res.json();
-        setDashboardData(data);
+        setDashboardData(data.data);
       } catch (err) {
         setError(err instanceof Error ? err.message : "Unknown error");
       } finally {
